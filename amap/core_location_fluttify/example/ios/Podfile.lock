@@ -1,0 +1,29 @@
+PODS:
+  - core_location_fluttify (0.0.1):
+    - Flutter
+    - foundation_fluttify
+  - Flutter (1.0.0)
+  - foundation_fluttify (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - core_location_fluttify (from `.symlinks/plugins/core_location_fluttify/ios`)
+  - Flutter (from `Flutter`)
+  - foundation_fluttify (from `.symlinks/plugins/foundation_fluttify/ios`)
+
+EXTERNAL SOURCES:
+  core_location_fluttify:
+    :path: ".symlinks/plugins/core_location_fluttify/ios"
+  Flutter:
+    :path: Flutter
+  foundation_fluttify:
+    :path: ".symlinks/plugins/foundation_fluttify/ios"
+
+SPEC CHECKSUMS:
+  core_location_fluttify: 9466a411ea7d22c6349c7e6a767ae4623f01eb1d
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  foundation_fluttify: 0c45145e3fad1fb99188e4979daed5b24cd9b278
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/Library/flutter-331/.pub-cache/hosted/pub.flutter-io.cn/amap_core_fluttify-0.17.0/android" />
+            <option value="$USER_HOME$/Library/flutter-331/.pub-cache/hosted/pub.flutter-io.cn/core_location_fluttify-0.7.1/android" />
+            <option value="$USER_HOME$/Library/flutter-331/.pub-cache/hosted/pub.flutter-io.cn/foundation_fluttify-0.13.0+1/android" />
+            <option value="$USER_HOME$/Library/flutter-331/.pub-cache/hosted/pub.flutter-io.cn/permission_handler-7.2.0/android" />
+            <option value="$PROJECT_DIR$/../../android" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
