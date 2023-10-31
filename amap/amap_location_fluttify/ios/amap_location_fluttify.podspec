@@ -19,7 +19,7 @@ A new flutter plugin project.
   # flutter plugin dependency
   
   # sdk dependency
-  s.dependency 'AMapLocation-NO-IDFA', '2.10.0'
+  s.dependency 'AMapLocation', '2.10.0'
 
   s.static_framework = true
   s.ios.deployment_target = '8.0'
