@@ -2,9 +2,9 @@
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
     <CLASSES>
       <root url="file://$PROJECT_DIR$" />
-      <root url="file://$PROJECT_DIR$/../foundation_fluttify" />
-      <root url="file://$PROJECT_DIR$/../amap_core_fluttify" />
-      <root url="file://$PROJECT_DIR$/../core_location_fluttify" />
+      <root url="file://$USER_HOME$/Library/flutter-331/.pub-cache/git/flutter_amap-33e93910bf8b1ed91f93e65a523f54c5f22434e4/amap/core_location_fluttify" />
+      <root url="file://$USER_HOME$/Library/flutter-331/.pub-cache/git/flutter_amap-33e93910bf8b1ed91f93e65a523f54c5f22434e4/amap/foundation_fluttify" />
+      <root url="file://$USER_HOME$/Library/flutter-331/.pub-cache/git/flutter_amap-33e93910bf8b1ed91f93e65a523f54c5f22434e4/amap/amap_core_fluttify" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

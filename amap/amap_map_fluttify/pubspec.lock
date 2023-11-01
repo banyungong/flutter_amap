@@ -4,24 +4,21 @@ packages:
   amap_core_fluttify:
     dependency: "direct main"
     description:
-      path: "../amap_core_fluttify"
-      relative: true
-    source: path
+      path: "amap/amap_core_fluttify"
+      ref: HEAD
+      resolved-ref: "33e93910bf8b1ed91f93e65a523f54c5f22434e4"
+      url: "https://github.com/banyungong/flutter_amap.git"
+    source: git
     version: "0.17.0"
   amap_location_fluttify:
     dependency: "direct main"
     description:
-      path: "../amap_location_fluttify"
-      relative: true
-    source: path
+      path: "amap/amap_location_fluttify"
+      ref: HEAD
+      resolved-ref: "33e93910bf8b1ed91f93e65a523f54c5f22434e4"
+      url: "https://github.com/banyungong/flutter_amap.git"
+    source: git
     version: "0.22.0"
-  amap_search_fluttify:
-    dependency: "direct main"
-    description:
-      path: "../amap_search_fluttify"
-      relative: true
-    source: path
-    version: "0.18.0"
   async:
     dependency: transitive
     description:
@@ -60,9 +57,11 @@ packages:
   core_location_fluttify:
     dependency: "direct main"
     description:
-      path: "../core_location_fluttify"
-      relative: true
-    source: path
+      path: "amap/core_location_fluttify"
+      ref: HEAD
+      resolved-ref: "33e93910bf8b1ed91f93e65a523f54c5f22434e4"
+      url: "https://github.com/banyungong/flutter_amap.git"
+    source: git
     version: "0.7.1"
   fake_async:
     dependency: transitive
@@ -96,9 +95,11 @@ packages:
   foundation_fluttify:
     dependency: "direct main"
     description:
-      path: "../foundation_fluttify"
-      relative: true
-    source: path
+      path: "amap/foundation_fluttify"
+      ref: HEAD
+      resolved-ref: "33e93910bf8b1ed91f93e65a523f54c5f22434e4"
+      url: "https://github.com/banyungong/flutter_amap.git"
+    source: git
     version: "0.13.0+1"
   js:
     dependency: transitive
@@ -199,9 +200,11 @@ packages:
   uni_map_platform_interface:
     dependency: "direct main"
     description:
-      path: "../uni_map_platform_interface"
-      relative: true
-    source: path
+      path: "amap/uni_map_platform_interface"
+      ref: HEAD
+      resolved-ref: "33e93910bf8b1ed91f93e65a523f54c5f22434e4"
+      url: "https://github.com/banyungong/flutter_amap.git"
+    source: git
     version: "0.7.0-rc.0"
   url_launcher:
     dependency: "direct main"

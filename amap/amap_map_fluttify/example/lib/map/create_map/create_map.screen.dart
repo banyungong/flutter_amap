@@ -482,7 +482,7 @@ class _SecondScreen extends StatelessWidget {
     return DecoratedColumn(
       children: [
         Flexible(child: AmapView()),
-        RaisedButton(
+        TextButton(
           onPressed: () {
             AmapLocation.instance.listenLocation().listen((event) {
               print(event);
@@ -490,7 +490,7 @@ class _SecondScreen extends StatelessWidget {
           },
           child: Text('开始定位'),
         ),
-        RaisedButton(
+        TextButton(
           onPressed: () {
             AmapLocation.instance.stopLocation();
           },

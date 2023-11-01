@@ -32,7 +32,7 @@ class _ScreenShotScreenState extends State<ScreenShotScreen> {
             flex: 3,
             child: DecoratedColumn(
               children: <Widget>[
-                RaisedButton(
+                TextButton(
                   onPressed: () async {
                     final data = await _controller.screenShot();
                     setState(() {

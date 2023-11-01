@@ -53,7 +53,7 @@ class _CoordinateTransformationStateScreen
             mainAxisSpacing: kSpace8,
             crossAxisSpacing: kSpace8,
             children: <Widget>[
-              RaisedButton(
+              TextButton(
                 onPressed: () async {
                   final result = await AmapService.instance
                       .convertCoordinate(_coord, CoordType.GPS);
@@ -63,7 +63,7 @@ class _CoordinateTransformationStateScreen
                 },
                 child: Text('GPS'),
               ),
-              RaisedButton(
+              TextButton(
                 onPressed: () async {
                   final result = await AmapService.instance
                       .convertCoordinate(_coord, CoordType.Google);
@@ -73,7 +73,7 @@ class _CoordinateTransformationStateScreen
                 },
                 child: Text('Google'),
               ),
-              RaisedButton(
+              TextButton(
                 onPressed: () async {
                   final result = await AmapService.instance
                       .convertCoordinate(_coord, CoordType.MapBar);
@@ -83,7 +83,7 @@ class _CoordinateTransformationStateScreen
                 },
                 child: Text('MapBar'),
               ),
-              RaisedButton(
+              TextButton(
                 onPressed: () async {
                   final result = await AmapService.instance
                       .convertCoordinate(_coord, CoordType.Baidu);
@@ -93,7 +93,7 @@ class _CoordinateTransformationStateScreen
                 },
                 child: Text('Baidu'),
               ),
-              RaisedButton(
+              TextButton(
                 onPressed: () async {
                   final result = await AmapService.instance
                       .convertCoordinate(_coord, CoordType.MapABC);
@@ -103,7 +103,7 @@ class _CoordinateTransformationStateScreen
                 },
                 child: Text('MapABC'),
               ),
-              RaisedButton(
+              TextButton(
                 onPressed: () async {
                   final result = await AmapService.instance
                       .convertCoordinate(_coord, CoordType.SosoMap);
@@ -113,7 +113,7 @@ class _CoordinateTransformationStateScreen
                 },
                 child: Text('SosoMap'),
               ),
-              RaisedButton(
+              TextButton(
                 onPressed: () async {
                   final result = await AmapService.instance
                       .convertCoordinate(_coord, CoordType.Aliyun);

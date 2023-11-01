@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "amap_core_fluttify",
-      "rootUri": "../../amap_core_fluttify",
+      "rootUri": "file:///Users/liruopeng/Library/flutter-331/.pub-cache/git/flutter_amap-33e93910bf8b1ed91f93e65a523f54c5f22434e4/amap/amap_core_fluttify",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -39,7 +39,7 @@
     },
     {
       "name": "core_location_fluttify",
-      "rootUri": "../../core_location_fluttify",
+      "rootUri": "file:///Users/liruopeng/Library/flutter-331/.pub-cache/git/flutter_amap-33e93910bf8b1ed91f93e65a523f54c5f22434e4/amap/core_location_fluttify",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -69,7 +69,7 @@
     },
     {
       "name": "foundation_fluttify",
-      "rootUri": "../../foundation_fluttify",
+      "rootUri": "file:///Users/liruopeng/Library/flutter-331/.pub-cache/git/flutter_amap-33e93910bf8b1ed91f93e65a523f54c5f22434e4/amap/foundation_fluttify",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -158,7 +158,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2023-10-31T10:10:43.454486Z",
+  "generated": "2023-11-01T01:45:46.338921Z",
   "generator": "pub",
   "generatorVersion": "2.18.6"
 }

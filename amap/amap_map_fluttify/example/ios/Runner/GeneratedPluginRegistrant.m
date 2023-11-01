@@ -24,12 +24,6 @@
 @import amap_map_fluttify;
 #endif
 
-#if __has_include(<amap_search_fluttify/AmapSearchFluttifyPlugin.h>)
-#import <amap_search_fluttify/AmapSearchFluttifyPlugin.h>
-#else
-@import amap_search_fluttify;
-#endif
-
 #if __has_include(<core_location_fluttify/CoreLocationFluttifyPlugin.h>)
 #import <core_location_fluttify/CoreLocationFluttifyPlugin.h>
 #else
@@ -72,7 +66,6 @@
   [AmapCoreFluttifyPlugin registerWithRegistrar:[registry registrarForPlugin:@"AmapCoreFluttifyPlugin"]];
   [AmapLocationFluttifyPlugin registerWithRegistrar:[registry registrarForPlugin:@"AmapLocationFluttifyPlugin"]];
   [AmapMapFluttifyPlugin registerWithRegistrar:[registry registrarForPlugin:@"AmapMapFluttifyPlugin"]];
-  [AmapSearchFluttifyPlugin registerWithRegistrar:[registry registrarForPlugin:@"AmapSearchFluttifyPlugin"]];
   [CoreLocationFluttifyPlugin registerWithRegistrar:[registry registrarForPlugin:@"CoreLocationFluttifyPlugin"]];
   [FoundationFluttifyPlugin registerWithRegistrar:[registry registrarForPlugin:@"FoundationFluttifyPlugin"]];
   [FLTPathProviderPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTPathProviderPlugin"]];

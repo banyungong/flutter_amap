@@ -64,7 +64,7 @@ class CalculateDistanceStateScreen extends State<CalculateDistanceScreen> {
               ),
             ],
           ),
-          RaisedButton(
+          TextButton(
             onPressed: () async {
               final result = await AmapService.instance.calculateDistance(
                 LatLng(

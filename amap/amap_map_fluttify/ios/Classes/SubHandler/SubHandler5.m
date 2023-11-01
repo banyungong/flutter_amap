@@ -2427,7 +2427,7 @@ extern BOOL enableLog;
                 return;
             }
         
-            ref.showsWorldMap = showsWorldMap;
+//            ref.showsWorldMap = 0;
             methodResult(@"success");
         },
         

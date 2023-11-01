@@ -2788,48 +2788,48 @@ class AmapController with WidgetsBindingObserver, IMapController {
     ImageProvider? customTexture,
   }) async {
     // 搜索路径
-    final route = await AmapSearch.instance.searchDriveRoute(
-      from: from,
-      to: to,
-      passedByPoints: passbyPointList ?? [],
-    );
-
-    // 添加路径
-    for (final path in await route.drivePathList) {
-      for (final step in await path.driveStepList) {
-        if (trafficOption?.show == true) {
-          for (final tmc in await step.tmsList) {
-            final status = await tmc.status;
-            Color statusColor = Colors.green;
-            switch (status) {
-              case '缓行':
-                statusColor = Colors.yellow;
-                break;
-              case '拥堵':
-                statusColor = Colors.red;
-                break;
-              case '未知':
-                statusColor = Colors.blue;
-                break;
-              default:
-                break;
-            }
-            await addPolyline(PolylineOption(
-              coordinateList: await tmc.polyline,
-              strokeColor: statusColor,
-              width: lineWidth,
-              textureProvider: customTexture,
-            ));
-          }
-        } else {
-          await addPolyline(PolylineOption(
-            coordinateList: await step.polyline,
-            width: lineWidth,
-            textureProvider: customTexture,
-          ));
-        }
-      }
-    }
+    // final route = await AmapSearch.instance.searchDriveRoute(
+    //   from: from,
+    //   to: to,
+    //   passedByPoints: passbyPointList ?? [],
+    // );
+    //
+    // // 添加路径
+    // for (final path in await route.drivePathList) {
+    //   for (final step in await path.driveStepList) {
+    //     if (trafficOption?.show == true) {
+    //       for (final tmc in await step.tmsList) {
+    //         final status = await tmc.status;
+    //         Color statusColor = Colors.green;
+    //         switch (status) {
+    //           case '缓行':
+    //             statusColor = Colors.yellow;
+    //             break;
+    //           case '拥堵':
+    //             statusColor = Colors.red;
+    //             break;
+    //           case '未知':
+    //             statusColor = Colors.blue;
+    //             break;
+    //           default:
+    //             break;
+    //         }
+    //         await addPolyline(PolylineOption(
+    //           coordinateList: await tmc.polyline,
+    //           strokeColor: statusColor,
+    //           width: lineWidth,
+    //           textureProvider: customTexture,
+    //         ));
+    //       }
+    //     } else {
+    //       await addPolyline(PolylineOption(
+    //         coordinateList: await step.polyline,
+    //         width: lineWidth,
+    //         textureProvider: customTexture,
+    //       ));
+    //     }
+    //   }
+    // }
   }
 
   /// 添加地区轮廓
@@ -2856,8 +2856,9 @@ class AmapController with WidgetsBindingObserver, IMapController {
   }) async {
     assert(districtName.isNotEmpty);
     assert(sampleRate > 0 && sampleRate <= 1);
-    final district = await AmapSearch.instance
-        .searchDistrict(districtName, showBoundary: true);
+    // final district = await AmapSearch.instance
+    //     .searchDistrict(districtName, showBoundary: true);
+    dynamic district;
 
     final districtList = district.districtList;
     if (districtList!.isNotEmpty) {

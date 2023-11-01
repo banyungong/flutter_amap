@@ -1,4 +1,4 @@
-import 'package:amap_search_fluttify/amap_search_fluttify.dart';
+//import 'package:amap_search_fluttify/amap_search_fluttify.dart';
 
 class PoiInfo {
   PoiInfo(this.poi);

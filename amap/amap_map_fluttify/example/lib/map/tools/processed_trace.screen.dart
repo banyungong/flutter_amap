@@ -32,7 +32,7 @@ class ProcessedTraceStateScreen extends State<ProcessedTraceScreen> {
               },
             ),
           ),
-          RaisedButton(
+          TextButton(
             onPressed: () async {
               await AmapService.instance.queryProcessedTrace(
                 1,

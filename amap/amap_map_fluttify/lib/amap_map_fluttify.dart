@@ -12,7 +12,7 @@
 library amap_map_fluttify;
 
 export 'package:amap_location_fluttify/amap_location_fluttify.dart';
-export 'package:amap_search_fluttify/amap_search_fluttify.dart';
+//export 'package:amap_search_fluttify/amap_search_fluttify.dart';
 export 'package:uni_map_platform_interface/uni_map_platform_interface.dart';
 
 export 'src/facade/amap_service.dart';

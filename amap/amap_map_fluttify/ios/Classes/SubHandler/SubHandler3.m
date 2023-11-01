@@ -78,7 +78,7 @@ extern BOOL enableLog;
             }
         
             // invoke native method
-            NSNumber* result = ref.showsWorldMap;
+            NSNumber* result = 0;
         
             // 返回值: jsonable
             id __result__ = result;

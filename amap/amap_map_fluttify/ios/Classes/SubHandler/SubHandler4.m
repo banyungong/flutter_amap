@@ -2259,7 +2259,7 @@ extern BOOL enableLog;
                     continue;
                 }
         
-                NSNumber* result = ref.showsWorldMap;
+                NSNumber* result = 0;
         
                 // 返回值: jsonable
                 id __result__ = result;

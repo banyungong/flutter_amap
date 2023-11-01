@@ -12,7 +12,7 @@ import 'package:amap_map_fluttify/src/ios/ios.export.g.dart';
 import 'package:foundation_fluttify/foundation_fluttify.dart';
 import 'package:core_location_fluttify/core_location_fluttify.dart';
 import 'package:amap_core_fluttify/amap_core_fluttify.dart';
-import 'package:amap_search_fluttify/amap_search_fluttify.dart';
+//import 'package:amap_search_fluttify/amap_search_fluttify.dart';
 import 'package:amap_location_fluttify/amap_location_fluttify.dart';
 
 
@@ -549,10 +549,10 @@ T? AmapMapFluttifyIOSAs<T>(dynamic __this__) {
   if (AmapCoreFluttifyObject != null) {
     return AmapCoreFluttifyObject;
   }
-  final AmapSearchFluttifyObject = AmapSearchFluttifyIOSAs<T>(__this__);
-  if (AmapSearchFluttifyObject != null) {
-    return AmapSearchFluttifyObject;
-  }
+  // final AmapSearchFluttifyObject = AmapSearchFluttifyIOSAs<T>(__this__);
+  // if (AmapSearchFluttifyObject != null) {
+  //   return AmapSearchFluttifyObject;
+  // }
   final AmapLocationFluttifyObject = AmapLocationFluttifyIOSAs<T>(__this__);
   if (AmapLocationFluttifyObject != null) {
     return AmapLocationFluttifyObject;

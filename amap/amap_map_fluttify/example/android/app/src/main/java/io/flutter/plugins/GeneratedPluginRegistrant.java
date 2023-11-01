@@ -31,11 +31,6 @@ public final class GeneratedPluginRegistrant {
       Log.e(TAG, "Error registering plugin amap_map_fluttify, me.yohom.amap_map_fluttify.AmapMapFluttifyPlugin", e);
     }
     try {
-      flutterEngine.getPlugins().add(new me.yohom.amap_search_fluttify.AmapSearchFluttifyPlugin());
-    } catch(Exception e) {
-      Log.e(TAG, "Error registering plugin amap_search_fluttify, me.yohom.amap_search_fluttify.AmapSearchFluttifyPlugin", e);
-    }
-    try {
       flutterEngine.getPlugins().add(new dev.fluttercommunity.plus.androidintent.AndroidIntentPlugin());
     } catch(Exception e) {
       Log.e(TAG, "Error registering plugin android_intent_plus, dev.fluttercommunity.plus.androidintent.AndroidIntentPlugin", e);

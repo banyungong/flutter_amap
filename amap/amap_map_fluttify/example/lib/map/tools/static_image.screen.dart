@@ -20,7 +20,7 @@ class _StaticImageScreenState extends State<StaticImageScreen> {
         child: DecoratedColumn(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            RaisedButton(
+            TextButton(
               onPressed: () {
                 AmapService.instance
                     .fetchStaticMapImage(LatLng(30, 120))

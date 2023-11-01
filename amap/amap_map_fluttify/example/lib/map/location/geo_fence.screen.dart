@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:amap_location_fluttify/amap_location_fluttify.dart';
 import 'package:amap_map_fluttify/amap_map_fluttify.dart';
-import 'package:amap_search_fluttify/amap_search_fluttify.dart';
+//import 'package:amap_search_fluttify/amap_search_fluttify.dart';
 import 'package:decorated_flutter/decorated_flutter.dart';
 import 'package:flutter/material.dart';
 
