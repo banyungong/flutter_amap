@@ -27,7 +27,7 @@ packages:
     source: git
     version: "0.22.0"
   amap_map_fluttify:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       path: ".."
       relative: true

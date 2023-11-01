@@ -4,6 +4,8 @@
 
 #import <Foundation/Foundation.h>
 #import <AMapNaviKit/MAMapKit.h>
+#import "AMapNaviKit/MAMVTTileOverlay.h"
+
 
 @protocol FlutterPluginRegistrar;
 

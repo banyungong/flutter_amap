@@ -3,6 +3,8 @@
 //////////////////////////////////////////////////////////
 
 #import "AmapMapFluttifyPlugin.h"
+#import "AMapNaviKit/MAMVTTileOverlay.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 

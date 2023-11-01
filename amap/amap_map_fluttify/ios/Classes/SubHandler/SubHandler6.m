@@ -709,93 +709,93 @@ extern BOOL enableLog;
             methodResult(@"success");
         },
         
-        @"MAMVTTileOverlayOptions::set_url_batch": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
-            for (NSUInteger __i__ = 0; __i__ < ((NSArray<NSDictionary<NSString*, NSObject*>*>*) argsBatch).count; __i__++) {
-                NSDictionary<NSString*, id>* args = [((NSArray<NSDictionary<NSString*, id>*>*) argsBatch) objectAtIndex:__i__];
+//        @"MAMVTTileOverlayOptions::set_url_batch": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
+//            for (NSUInteger __i__ = 0; __i__ < ((NSArray<NSDictionary<NSString*, NSObject*>*>*) argsBatch).count; __i__++) {
+//                NSDictionary<NSString*, id>* args = [((NSArray<NSDictionary<NSString*, id>*>*) argsBatch) objectAtIndex:__i__];
+//        
+//                // args
+//                // jsonable arg
+//                NSString* url = (NSString*) args[@"url"];
+//        
+//                // ref
+//                MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
+//                if ((NSNull *) ref == [NSNull null] || ref == nil) {
+//                    methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
+//                    return;
+//                }
+//        
+//                ref.url = url;;
+//                methodResult(@"success");
+//            }
+//        
+//            methodResult(@"success");
+//        },
         
-                // args
-                // jsonable arg
-                NSString* url = (NSString*) args[@"url"];
+//        @"MAMVTTileOverlayOptions::set_key_batch": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
+//            for (NSUInteger __i__ = 0; __i__ < ((NSArray<NSDictionary<NSString*, NSObject*>*>*) argsBatch).count; __i__++) {
+//                NSDictionary<NSString*, id>* args = [((NSArray<NSDictionary<NSString*, id>*>*) argsBatch) objectAtIndex:__i__];
+//        
+//                // args
+//                // jsonable arg
+//                NSString* key = (NSString*) args[@"key"];
+//        
+//                // ref
+//                MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
+//                if ((NSNull *) ref == [NSNull null] || ref == nil) {
+//                    methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
+//                    return;
+//                }
+//        
+//                ref.key = key;;
+//                methodResult(@"success");
+//            }
+//        
+//            methodResult(@"success");
+//        },
         
-                // ref
-                MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
-                if ((NSNull *) ref == [NSNull null] || ref == nil) {
-                    methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
-                    return;
-                }
+//        @"MAMVTTileOverlayOptions::set_Id_batch": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
+//            for (NSUInteger __i__ = 0; __i__ < ((NSArray<NSDictionary<NSString*, NSObject*>*>*) argsBatch).count; __i__++) {
+//                NSDictionary<NSString*, id>* args = [((NSArray<NSDictionary<NSString*, id>*>*) argsBatch) objectAtIndex:__i__];
+//        
+//                // args
+//                // jsonable arg
+//                NSString* Id = (NSString*) args[@"Id"];
+//        
+//                // ref
+//                MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
+//                if ((NSNull *) ref == [NSNull null] || ref == nil) {
+//                    methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
+//                    return;
+//                }
+//        
+//                ref.Id = Id;;
+//                methodResult(@"success");
+//            }
+//        
+//            methodResult(@"success");
+//        },
         
-                ref.url = url;;
-                methodResult(@"success");
-            }
-        
-            methodResult(@"success");
-        },
-        
-        @"MAMVTTileOverlayOptions::set_key_batch": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
-            for (NSUInteger __i__ = 0; __i__ < ((NSArray<NSDictionary<NSString*, NSObject*>*>*) argsBatch).count; __i__++) {
-                NSDictionary<NSString*, id>* args = [((NSArray<NSDictionary<NSString*, id>*>*) argsBatch) objectAtIndex:__i__];
-        
-                // args
-                // jsonable arg
-                NSString* key = (NSString*) args[@"key"];
-        
-                // ref
-                MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
-                if ((NSNull *) ref == [NSNull null] || ref == nil) {
-                    methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
-                    return;
-                }
-        
-                ref.key = key;;
-                methodResult(@"success");
-            }
-        
-            methodResult(@"success");
-        },
-        
-        @"MAMVTTileOverlayOptions::set_Id_batch": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
-            for (NSUInteger __i__ = 0; __i__ < ((NSArray<NSDictionary<NSString*, NSObject*>*>*) argsBatch).count; __i__++) {
-                NSDictionary<NSString*, id>* args = [((NSArray<NSDictionary<NSString*, id>*>*) argsBatch) objectAtIndex:__i__];
-        
-                // args
-                // jsonable arg
-                NSString* Id = (NSString*) args[@"Id"];
-        
-                // ref
-                MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
-                if ((NSNull *) ref == [NSNull null] || ref == nil) {
-                    methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
-                    return;
-                }
-        
-                ref.Id = Id;;
-                methodResult(@"success");
-            }
-        
-            methodResult(@"success");
-        },
-        
-        @"MAMVTTileOverlayOptions::set_visible_batch": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
-            for (NSUInteger __i__ = 0; __i__ < ((NSArray<NSDictionary<NSString*, NSObject*>*>*) argsBatch).count; __i__++) {
-                NSDictionary<NSString*, id>* args = [((NSArray<NSDictionary<NSString*, id>*>*) argsBatch) objectAtIndex:__i__];
-        
-                // args
-                // jsonable arg
-                BOOL visible = [args[@"visible"] boolValue];
-        
-                // ref
-                MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
-                if ((NSNull *) ref == [NSNull null] || ref == nil) {
-                    methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
-                    return;
-                }
-        
-                ref.visible = visible;;
-                methodResult(@"success");
-            }
-        
-            methodResult(@"success");
-        },
+//        @"MAMVTTileOverlayOptions::set_visible_batch": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
+//            for (NSUInteger __i__ = 0; __i__ < ((NSArray<NSDictionary<NSString*, NSObject*>*>*) argsBatch).count; __i__++) {
+//                NSDictionary<NSString*, id>* args = [((NSArray<NSDictionary<NSString*, id>*>*) argsBatch) objectAtIndex:__i__];
+//        
+//                // args
+//                // jsonable arg
+//                BOOL visible = [args[@"visible"] boolValue];
+//        
+//                // ref
+//                MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
+//                if ((NSNull *) ref == [NSNull null] || ref == nil) {
+//                    methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
+//                    return;
+//                }
+//        
+//                ref.visible = visible;;
+//                methodResult(@"success");
+//            }
+//        
+//            methodResult(@"success");
+//        },
         
         @"MAOverlayRenderer::set_strokeImage_batch": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
             for (NSUInteger __i__ = 0; __i__ < ((NSArray<NSDictionary<NSString*, NSObject*>*>*) argsBatch).count; __i__++) {
@@ -3261,14 +3261,14 @@ extern BOOL enableLog;
             methodResult(@(isTargetType));
         },
         
-        @"RefClass::isKindOfMAMVTTileOverlayRenderer": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
-            // 引用对象
-            NSObject* __this__ = ((NSDictionary<NSString*, NSObject*>*) args)[@"__this__"];
-        
-            BOOL isTargetType = [__this__ isKindOfClass:[MAMVTTileOverlayRenderer class]];
-            methodResult(@(isTargetType));
-        },
-        
+//        @"RefClass::isKindOfMAMVTTileOverlayRenderer": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
+//            // 引用对象
+//            NSObject* __this__ = ((NSDictionary<NSString*, NSObject*>*) args)[@"__this__"];
+//        
+//            BOOL isTargetType = [__this__ isKindOfClass:[MAMVTTileOverlayRenderer class]];
+//            methodResult(@(isTargetType));
+//        },
+//        
         @"RefClass::isKindOfMAOfflineItemMunicipality": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
             // 引用对象
             NSObject* __this__ = ((NSDictionary<NSString*, NSObject*>*) args)[@"__this__"];
@@ -3485,22 +3485,22 @@ extern BOOL enableLog;
             methodResult(@(isTargetType));
         },
         
-        @"RefClass::isKindOfMAMVTTileOverlayOptions": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
-            // 引用对象
-            NSObject* __this__ = ((NSDictionary<NSString*, NSObject*>*) args)[@"__this__"];
-        
-            BOOL isTargetType = [__this__ isKindOfClass:[MAMVTTileOverlayOptions class]];
-            methodResult(@(isTargetType));
-        },
-        
-        @"RefClass::isKindOfMAMVTTileOverlay": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
-            // 引用对象
-            NSObject* __this__ = ((NSDictionary<NSString*, NSObject*>*) args)[@"__this__"];
-        
-            BOOL isTargetType = [__this__ isKindOfClass:[MAMVTTileOverlay class]];
-            methodResult(@(isTargetType));
-        },
-        
+//        @"RefClass::isKindOfMAMVTTileOverlayOptions": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
+//            // 引用对象
+//            NSObject* __this__ = ((NSDictionary<NSString*, NSObject*>*) args)[@"__this__"];
+//        
+//            BOOL isTargetType = [__this__ isKindOfClass:[MAMVTTileOverlayOptions class]];
+//            methodResult(@(isTargetType));
+//        },
+//        
+//        @"RefClass::isKindOfMAMVTTileOverlay": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
+//            // 引用对象
+//            NSObject* __this__ = ((NSDictionary<NSString*, NSObject*>*) args)[@"__this__"];
+//        
+//            BOOL isTargetType = [__this__ isKindOfClass:[MAMVTTileOverlay class]];
+//            methodResult(@(isTargetType));
+//        },
+//        
         @"RefClass::isKindOfMAOverlayRenderer": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
             // 引用对象
             NSObject* __this__ = ((NSDictionary<NSString*, NSObject*>*) args)[@"__this__"];

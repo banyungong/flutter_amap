@@ -14,6 +14,8 @@ dependencies:
   oktoast: any
   sliding_up_panel: ^2.0.0+1
   flutter_easyrefresh: ^2.1.1
+  amap_map_fluttify:
+    path: ../
 
 #dependency_overrides:
 #  foundation_fluttify:

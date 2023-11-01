@@ -623,89 +623,89 @@ extern BOOL enableLog;
             methodResult(@"success");
         },
         
-        @"MAMVTTileOverlayOptions::set_url": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
-            // print log
-            if (enableLog) {
-                NSLog(@"MAMVTTileOverlayOptions::set_url");
-            }
+//        @"MAMVTTileOverlayOptions::set_url": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
+//            // print log
+//            if (enableLog) {
+//                NSLog(@"MAMVTTileOverlayOptions::set_url");
+//            }
+//        
+//            // args
+//            // jsonable arg
+//            NSString* url = (NSString*) args[@"url"];
+//        
+//            // ref
+//            MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
+//            if ((NSNull *) ref == [NSNull null] || ref == nil) {
+//                methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
+//                return;
+//            }
+//        
+//            ref.url = url;
+//            methodResult(@"success");
+//        },
+//        
+//        @"MAMVTTileOverlayOptions::set_key": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
+//            // print log
+//            if (enableLog) {
+//                NSLog(@"MAMVTTileOverlayOptions::set_key");
+//            }
+//        
+//            // args
+//            // jsonable arg
+//            NSString* key = (NSString*) args[@"key"];
+//        
+//            // ref
+//            MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
+//            if ((NSNull *) ref == [NSNull null] || ref == nil) {
+//                methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
+//                return;
+//            }
+//        
+//            ref.key = key;
+//            methodResult(@"success");
+//        },
+//        
+//        @"MAMVTTileOverlayOptions::set_Id": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
+//            // print log
+//            if (enableLog) {
+//                NSLog(@"MAMVTTileOverlayOptions::set_Id");
+//            }
+//        
+//            // args
+//            // jsonable arg
+//            NSString* Id = (NSString*) args[@"Id"];
+//        
+//            // ref
+//            MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
+//            if ((NSNull *) ref == [NSNull null] || ref == nil) {
+//                methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
+//                return;
+//            }
+//        
+//            ref.Id = Id;
+//            methodResult(@"success");
+//        },
         
-            // args
-            // jsonable arg
-            NSString* url = (NSString*) args[@"url"];
-        
-            // ref
-            MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
-            if ((NSNull *) ref == [NSNull null] || ref == nil) {
-                methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
-                return;
-            }
-        
-            ref.url = url;
-            methodResult(@"success");
-        },
-        
-        @"MAMVTTileOverlayOptions::set_key": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
-            // print log
-            if (enableLog) {
-                NSLog(@"MAMVTTileOverlayOptions::set_key");
-            }
-        
-            // args
-            // jsonable arg
-            NSString* key = (NSString*) args[@"key"];
-        
-            // ref
-            MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
-            if ((NSNull *) ref == [NSNull null] || ref == nil) {
-                methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
-                return;
-            }
-        
-            ref.key = key;
-            methodResult(@"success");
-        },
-        
-        @"MAMVTTileOverlayOptions::set_Id": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
-            // print log
-            if (enableLog) {
-                NSLog(@"MAMVTTileOverlayOptions::set_Id");
-            }
-        
-            // args
-            // jsonable arg
-            NSString* Id = (NSString*) args[@"Id"];
-        
-            // ref
-            MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
-            if ((NSNull *) ref == [NSNull null] || ref == nil) {
-                methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
-                return;
-            }
-        
-            ref.Id = Id;
-            methodResult(@"success");
-        },
-        
-        @"MAMVTTileOverlayOptions::set_visible": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
-            // print log
-            if (enableLog) {
-                NSLog(@"MAMVTTileOverlayOptions::set_visible");
-            }
-        
-            // args
-            // jsonable arg
-            BOOL visible = [args[@"visible"] boolValue];
-        
-            // ref
-            MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
-            if ((NSNull *) ref == [NSNull null] || ref == nil) {
-                methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
-                return;
-            }
-        
-            ref.visible = visible;
-            methodResult(@"success");
-        },
+//        @"MAMVTTileOverlayOptions::set_visible": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
+//            // print log
+//            if (enableLog) {
+//                NSLog(@"MAMVTTileOverlayOptions::set_visible");
+//            }
+//        
+//            // args
+//            // jsonable arg
+//            BOOL visible = [args[@"visible"] boolValue];
+//        
+//            // ref
+//            MAMVTTileOverlayOptions* ref = (MAMVTTileOverlayOptions*) args[@"__this__"];
+//            if ((NSNull *) ref == [NSNull null] || ref == nil) {
+//                methodResult([FlutterError errorWithCode:@"目标对象为nil" message:@"目标对象为nil" details:@"目标对象为nil"]);
+//                return;
+//            }
+//        
+//            ref.visible = visible;
+//            methodResult(@"success");
+//        },
         
         @"MAOverlayRenderer::set_strokeImage": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
             // print log

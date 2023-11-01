@@ -641,23 +641,23 @@ extern BOOL enableLog;
             if (enableLog) NSLog(@"HEAP: %@", HEAP);
         },
         
-        @"ObjectFactory::createMAMVTTileOverlayRenderer": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
-            // print log
-            if (enableLog) {
-                NSLog(@"ObjectFactory::createMAMVTTileOverlayRenderer");
-            }
-        
-            MAMVTTileOverlayRenderer* __this__;
-            if ([((NSDictionary<NSString*, id>*) args)[@"init"] boolValue]) {
-                __this__ = [[MAMVTTileOverlayRenderer alloc] init];
-            } else {
-                __this__ = [MAMVTTileOverlayRenderer alloc];
-            }
-        
-            methodResult(__this__);
-        
-            if (enableLog) NSLog(@"HEAP: %@", HEAP);
-        },
+//        @"ObjectFactory::createMAMVTTileOverlayRenderer": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
+//            // print log
+//            if (enableLog) {
+//                NSLog(@"ObjectFactory::createMAMVTTileOverlayRenderer");
+//            }
+//        
+//            MAMVTTileOverlayRenderer* __this__;
+//            if ([((NSDictionary<NSString*, id>*) args)[@"init"] boolValue]) {
+//                __this__ = [[MAMVTTileOverlayRenderer alloc] init];
+//            } else {
+//                __this__ = [MAMVTTileOverlayRenderer alloc];
+//            }
+//        
+//            methodResult(__this__);
+//        
+//            if (enableLog) NSLog(@"HEAP: %@", HEAP);
+//        },
         
         @"ObjectFactory::createMAOfflineItemMunicipality": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
             // print log
@@ -1250,41 +1250,41 @@ extern BOOL enableLog;
             if (enableLog) NSLog(@"HEAP: %@", HEAP);
         },
         
-        @"ObjectFactory::createMAMVTTileOverlayOptions": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
-            // print log
-            if (enableLog) {
-                NSLog(@"ObjectFactory::createMAMVTTileOverlayOptions");
-            }
-        
-            MAMVTTileOverlayOptions* __this__;
-            if ([((NSDictionary<NSString*, id>*) args)[@"init"] boolValue]) {
-                __this__ = [[MAMVTTileOverlayOptions alloc] init];
-            } else {
-                __this__ = [MAMVTTileOverlayOptions alloc];
-            }
-        
-            methodResult(__this__);
-        
-            if (enableLog) NSLog(@"HEAP: %@", HEAP);
-        },
-        
-        @"ObjectFactory::createMAMVTTileOverlay": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
-            // print log
-            if (enableLog) {
-                NSLog(@"ObjectFactory::createMAMVTTileOverlay");
-            }
-        
-            MAMVTTileOverlay* __this__;
-            if ([((NSDictionary<NSString*, id>*) args)[@"init"] boolValue]) {
-                __this__ = [[MAMVTTileOverlay alloc] init];
-            } else {
-                __this__ = [MAMVTTileOverlay alloc];
-            }
-        
-            methodResult(__this__);
-        
-            if (enableLog) NSLog(@"HEAP: %@", HEAP);
-        },
+//        @"ObjectFactory::createMAMVTTileOverlayOptions": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
+//            // print log
+//            if (enableLog) {
+//                NSLog(@"ObjectFactory::createMAMVTTileOverlayOptions");
+//            }
+//        
+//            MAMVTTileOverlayOptions* __this__;
+//            if ([((NSDictionary<NSString*, id>*) args)[@"init"] boolValue]) {
+//                __this__ = [[MAMVTTileOverlayOptions alloc] init];
+//            } else {
+//                __this__ = [MAMVTTileOverlayOptions alloc];
+//            }
+//        
+//            methodResult(__this__);
+//        
+//            if (enableLog) NSLog(@"HEAP: %@", HEAP);
+//        },
+//        
+//        @"ObjectFactory::createMAMVTTileOverlay": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
+//            // print log
+//            if (enableLog) {
+//                NSLog(@"ObjectFactory::createMAMVTTileOverlay");
+//            }
+//        
+//            MAMVTTileOverlay* __this__;
+//            if ([((NSDictionary<NSString*, id>*) args)[@"init"] boolValue]) {
+//                __this__ = [[MAMVTTileOverlay alloc] init];
+//            } else {
+//                __this__ = [MAMVTTileOverlay alloc];
+//            }
+//        
+//            methodResult(__this__);
+//        
+//            if (enableLog) NSLog(@"HEAP: %@", HEAP);
+//        },
         
         @"ObjectFactory::createMAOverlayRenderer": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
             // print log
@@ -2264,26 +2264,26 @@ extern BOOL enableLog;
             if (enableLog) NSLog(@"HEAP: %@", HEAP);
         },
         
-        @"ObjectFactory::create_batchMAMVTTileOverlayRenderer": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
-            NSMutableArray<NSObject*>* resultList = [NSMutableArray array];
-        
-            NSNumber* length = (NSNumber*) ((NSDictionary<NSString*, NSObject*>*) argsBatch)[@"length"];
-            NSNumber* init = (NSNumber*) ((NSDictionary<NSString*, NSObject*>*) argsBatch)[@"init"];
-            for (NSUInteger __i__ = 0; __i__ < [length integerValue]; __i__++) {
-                MAMVTTileOverlayRenderer* __this__;
-                if ([init boolValue]) {
-                    __this__ = [[MAMVTTileOverlayRenderer alloc] init];
-                } else {
-                    __this__ = [MAMVTTileOverlayRenderer alloc];
-                }
-                [resultList addObject:__this__];
-            }
-        
-            methodResult(resultList);
-        
-            if (enableLog) NSLog(@"HEAP: %@", HEAP);
-        },
-        
+//        @"ObjectFactory::create_batchMAMVTTileOverlayRenderer": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
+//            NSMutableArray<NSObject*>* resultList = [NSMutableArray array];
+//        
+//            NSNumber* length = (NSNumber*) ((NSDictionary<NSString*, NSObject*>*) argsBatch)[@"length"];
+//            NSNumber* init = (NSNumber*) ((NSDictionary<NSString*, NSObject*>*) argsBatch)[@"init"];
+//            for (NSUInteger __i__ = 0; __i__ < [length integerValue]; __i__++) {
+//                MAMVTTileOverlayRenderer* __this__;
+//                if ([init boolValue]) {
+//                    __this__ = [[MAMVTTileOverlayRenderer alloc] init];
+//                } else {
+//                    __this__ = [MAMVTTileOverlayRenderer alloc];
+//                }
+//                [resultList addObject:__this__];
+//            }
+//        
+//            methodResult(resultList);
+//        
+//            if (enableLog) NSLog(@"HEAP: %@", HEAP);
+//        },
+//        
         @"ObjectFactory::create_batchMAOfflineItemMunicipality": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
             NSMutableArray<NSObject*>* resultList = [NSMutableArray array];
         
@@ -2936,45 +2936,45 @@ extern BOOL enableLog;
             if (enableLog) NSLog(@"HEAP: %@", HEAP);
         },
         
-        @"ObjectFactory::create_batchMAMVTTileOverlayOptions": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
-            NSMutableArray<NSObject*>* resultList = [NSMutableArray array];
+//        @"ObjectFactory::create_batchMAMVTTileOverlayOptions": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
+//            NSMutableArray<NSObject*>* resultList = [NSMutableArray array];
+//        
+//            NSNumber* length = (NSNumber*) ((NSDictionary<NSString*, NSObject*>*) argsBatch)[@"length"];
+//            NSNumber* init = (NSNumber*) ((NSDictionary<NSString*, NSObject*>*) argsBatch)[@"init"];
+//            for (NSUInteger __i__ = 0; __i__ < [length integerValue]; __i__++) {
+//                MAMVTTileOverlayOptions* __this__;
+//                if ([init boolValue]) {
+//                    __this__ = [[MAMVTTileOverlayOptions alloc] init];
+//                } else {
+//                    __this__ = [MAMVTTileOverlayOptions alloc];
+//                }
+//                [resultList addObject:__this__];
+//            }
+//        
+//            methodResult(resultList);
+//        
+//            if (enableLog) NSLog(@"HEAP: %@", HEAP);
+//        },
         
-            NSNumber* length = (NSNumber*) ((NSDictionary<NSString*, NSObject*>*) argsBatch)[@"length"];
-            NSNumber* init = (NSNumber*) ((NSDictionary<NSString*, NSObject*>*) argsBatch)[@"init"];
-            for (NSUInteger __i__ = 0; __i__ < [length integerValue]; __i__++) {
-                MAMVTTileOverlayOptions* __this__;
-                if ([init boolValue]) {
-                    __this__ = [[MAMVTTileOverlayOptions alloc] init];
-                } else {
-                    __this__ = [MAMVTTileOverlayOptions alloc];
-                }
-                [resultList addObject:__this__];
-            }
-        
-            methodResult(resultList);
-        
-            if (enableLog) NSLog(@"HEAP: %@", HEAP);
-        },
-        
-        @"ObjectFactory::create_batchMAMVTTileOverlay": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
-            NSMutableArray<NSObject*>* resultList = [NSMutableArray array];
-        
-            NSNumber* length = (NSNumber*) ((NSDictionary<NSString*, NSObject*>*) argsBatch)[@"length"];
-            NSNumber* init = (NSNumber*) ((NSDictionary<NSString*, NSObject*>*) argsBatch)[@"init"];
-            for (NSUInteger __i__ = 0; __i__ < [length integerValue]; __i__++) {
-                MAMVTTileOverlay* __this__;
-                if ([init boolValue]) {
-                    __this__ = [[MAMVTTileOverlay alloc] init];
-                } else {
-                    __this__ = [MAMVTTileOverlay alloc];
-                }
-                [resultList addObject:__this__];
-            }
-        
-            methodResult(resultList);
-        
-            if (enableLog) NSLog(@"HEAP: %@", HEAP);
-        },
+//        @"ObjectFactory::create_batchMAMVTTileOverlay": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
+//            NSMutableArray<NSObject*>* resultList = [NSMutableArray array];
+//        
+//            NSNumber* length = (NSNumber*) ((NSDictionary<NSString*, NSObject*>*) argsBatch)[@"length"];
+//            NSNumber* init = (NSNumber*) ((NSDictionary<NSString*, NSObject*>*) argsBatch)[@"init"];
+//            for (NSUInteger __i__ = 0; __i__ < [length integerValue]; __i__++) {
+//                MAMVTTileOverlay* __this__;
+//                if ([init boolValue]) {
+//                    __this__ = [[MAMVTTileOverlay alloc] init];
+//                } else {
+//                    __this__ = [MAMVTTileOverlay alloc];
+//                }
+//                [resultList addObject:__this__];
+//            }
+//        
+//            methodResult(resultList);
+//        
+//            if (enableLog) NSLog(@"HEAP: %@", HEAP);
+//        },
         
         @"ObjectFactory::create_batchMAOverlayRenderer": ^(NSObject <FlutterPluginRegistrar> * registrar, id argsBatch, FlutterResult methodResult) {
             NSMutableArray<NSObject*>* resultList = [NSMutableArray array];

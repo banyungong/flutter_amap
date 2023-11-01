@@ -3118,27 +3118,27 @@ extern BOOL enableLog;
         
             methodResult(__result__);
         },
-        @"MAMVTTileOverlay::mvtTileOverlayWithOption": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
-            if (enableLog) {
-                NSLog(@"fluttify-objc: MAMVTTileOverlay::mvtTileOverlayWithOption(%@)", args);
-            }
-        
-            // args
-            // ref arg
-            MAMVTTileOverlayOptions* option = (MAMVTTileOverlayOptions*) (args[@"option"] == [NSNull null] ? nil : args[@"option"]);
-        
-            // ref
-        
-        
-            // invoke native method
-            MAMVTTileOverlay* result = [MAMVTTileOverlay mvtTileOverlayWithOption: option];
-        
-            // result
-            // return a ref
-            NSObject* __result__ = result;
-        
-            methodResult(__result__);
-        },
+//        @"MAMVTTileOverlay::mvtTileOverlayWithOption": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
+//            if (enableLog) {
+//                NSLog(@"fluttify-objc: MAMVTTileOverlay::mvtTileOverlayWithOption(%@)", args);
+//            }
+//        
+//            // args
+//            // ref arg
+//            MAMVTTileOverlayOptions* option = (MAMVTTileOverlayOptions*) (args[@"option"] == [NSNull null] ? nil : args[@"option"]);
+//        
+//            // ref
+//        
+//        
+//            // invoke native method
+//            MAMVTTileOverlay* result = [MAMVTTileOverlay mvtTileOverlayWithOption: option];
+//        
+//            // result
+//            // return a ref
+//            NSObject* __result__ = result;
+//        
+//            methodResult(__result__);
+//        },
         @"MAOverlayRenderer::initWithOverlay": ^(NSObject <FlutterPluginRegistrar> * registrar, id args, FlutterResult methodResult) {
             if (enableLog) {
                 NSLog(@"fluttify-objc: MAOverlayRenderer::initWithOverlay(%@)", args);

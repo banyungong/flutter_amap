@@ -1,27 +1,21 @@
 PODS:
-  - AMap3DMap-NO-IDFA (9.2.1):
-    - AMapFoundation-NO-IDFA (~> 1.6.9)
   - amap_core_fluttify (0.0.1):
-    - AMapFoundation-NO-IDFA (~> 1.6.9)
+    - AMapFoundation (~> 1.8.2)
     - Flutter
     - foundation_fluttify
   - amap_location_fluttify (0.0.1):
-    - AMapLocation-NO-IDFA (= 2.8.0)
+    - AMapLocation (= 2.10.0)
     - Flutter
     - foundation_fluttify
   - amap_map_fluttify (0.0.1):
-    - AMap3DMap-NO-IDFA (= 9.2.1)
+    - AMapNavi (= 9.7.0)
     - Flutter
     - foundation_fluttify
-  - amap_search_fluttify (0.0.1):
-    - AMapSearch-NO-IDFA (= 9.2.0)
-    - Flutter
-    - foundation_fluttify
-  - AMapFoundation-NO-IDFA (1.6.9)
-  - AMapLocation-NO-IDFA (2.8.0):
-    - AMapFoundation-NO-IDFA (~> 1.6.9)
-  - AMapSearch-NO-IDFA (9.2.0):
-    - AMapFoundation-NO-IDFA (~> 1.6.9)
+  - AMapFoundation (1.8.2)
+  - AMapLocation (2.10.0):
+    - AMapFoundation (>= 1.8.0)
+  - AMapNavi (9.7.0):
+    - AMapFoundation (>= 1.8.2)
   - core_location_fluttify (0.0.1):
     - Flutter
     - foundation_fluttify
@@ -45,7 +39,6 @@ DEPENDENCIES:
   - amap_core_fluttify (from `.symlinks/plugins/amap_core_fluttify/ios`)
   - amap_location_fluttify (from `.symlinks/plugins/amap_location_fluttify/ios`)
   - amap_map_fluttify (from `.symlinks/plugins/amap_map_fluttify/ios`)
-  - amap_search_fluttify (from `.symlinks/plugins/amap_search_fluttify/ios`)
   - core_location_fluttify (from `.symlinks/plugins/core_location_fluttify/ios`)
   - Flutter (from `Flutter`)
   - foundation_fluttify (from `.symlinks/plugins/foundation_fluttify/ios`)
@@ -56,10 +49,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://gitee.com/mirrors/CocoaPods-Specs.git:
-    - AMap3DMap-NO-IDFA
-    - AMapFoundation-NO-IDFA
-    - AMapLocation-NO-IDFA
-    - AMapSearch-NO-IDFA
+    - AMapFoundation
+    - AMapLocation
+    - AMapNavi
     - FMDB
 
 EXTERNAL SOURCES:
@@ -69,8 +61,6 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/amap_location_fluttify/ios"
   amap_map_fluttify:
     :path: ".symlinks/plugins/amap_map_fluttify/ios"
-  amap_search_fluttify:
-    :path: ".symlinks/plugins/amap_search_fluttify/ios"
   core_location_fluttify:
     :path: ".symlinks/plugins/core_location_fluttify/ios"
   Flutter:
@@ -87,16 +77,14 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/url_launcher_ios/ios"
 
 SPEC CHECKSUMS:
-  AMap3DMap-NO-IDFA: 6660036f9a8c28ed3e9037936210121599055a2e
-  amap_core_fluttify: b84657ba39ee287a4b96bbcc0a6e67612cc3808f
-  amap_location_fluttify: 7dc366b959d3ea9ce0b826e60c22a15cec54bbad
-  amap_map_fluttify: 4eaf28184c3cac71f7cf1fb2799c919886792ca8
-  amap_search_fluttify: cfab91aa65730337fff54705aae0423ea752fc91
-  AMapFoundation-NO-IDFA: cc2ec7a2828ef292358ad594b7ee0ae21a7f097b
-  AMapLocation-NO-IDFA: 9d7ec9b052405356600b59fe0a9a65261bacc54e
-  AMapSearch-NO-IDFA: 9df378c88d50083346412ee3e0a10e2c451c7139
+  amap_core_fluttify: 3db6d1943c7943bb06997e2c785789601081cadf
+  amap_location_fluttify: fa30de652648fcd1c9cb65073867007bed665fc9
+  amap_map_fluttify: a7355c9ea8e0775b67b87e8ca188e9533f2facb4
+  AMapFoundation: 9885c48fc3a78fdfb84a0299a2293e56ea3c9fec
+  AMapLocation: 5248aec2455ebb5d104b367813c946430a2ee033
+  AMapNavi: 0f5fba70ce65a44aa52a226e874e1d1a7d8ec14b
   core_location_fluttify: 9466a411ea7d22c6349c7e6a767ae4623f01eb1d
-  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   foundation_fluttify: 0c45145e3fad1fb99188e4979daed5b24cd9b278
   path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
@@ -106,4 +94,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: b71e6afb316c858200a12fa02b726271202c35b1
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.13.0
