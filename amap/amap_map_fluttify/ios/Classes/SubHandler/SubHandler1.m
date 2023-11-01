@@ -4,10 +4,10 @@
 
 #import "SubHandler1.h"
 #import "FluttifyMessageCodec.h"
-#import <MAMapKit/MAMapKit.h>
+#import <AMapNaviKit/MAMapKit.h>
 #import "MATraceDelegate_Anonymous.h"
 #import "MAMultiPointOverlayRendererDelegate_Anonymous.h"
-#import "MAMapViewDelegate_Anonymous.h"
+
 
 // Dart端一次方法调用所存在的栈, 只有当MethodChannel传递参数受限时, 再启用这个容器
 extern NSMutableDictionary<NSString*, NSObject*>* STACK;

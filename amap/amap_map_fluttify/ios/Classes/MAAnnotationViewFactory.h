@@ -4,7 +4,7 @@
 
 #import <Foundation/Foundation.h>
 #import <Flutter/Flutter.h>
-#import <MAMapKit/MAMapKit.h>
+#import <AMapNaviKit/MAMapKit.h>
 
 @interface MAAnnotationViewFactory : NSObject <FlutterPlatformViewFactory>
 

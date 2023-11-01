@@ -15,7 +15,7 @@
 #import "SubHandler/SubHandler8.h"
 #import "SubHandler/Custom/SubHandlerCustom.h"
 #import "FluttifyMessageCodec.h"
-#import <MAMapKit/MAMapKit.h>
+#import <AMapNaviKit/MAMapKit.h>
 #import "MAPinAnnotationViewFactory.h"
 #import "MAAnnotationViewFactory.h"
 #import "MACustomCalloutViewFactory.h"

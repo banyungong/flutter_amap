@@ -4,7 +4,7 @@
 
 #import "SubHandler7.h"
 #import "FluttifyMessageCodec.h"
-#import <MAMapKit/MAMapKit.h>
+#import <AMapNaviKit/MAMapKit.h>
 #import "MATraceDelegate_Anonymous.h"
 #import "MAMultiPointOverlayRendererDelegate_Anonymous.h"
 #import "MAMapViewDelegate_Anonymous.h"
