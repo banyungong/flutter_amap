@@ -25,7 +25,7 @@ class _GetDistrictInfoScreenState extends State<GetDistrictInfoScreen> {
             controller: _keywordController,
             decoration: const InputDecoration(hintText: '输入地区'),
           ),
-          RaisedButton(
+          TextButton(
             onPressed: () async {
               final district = await AmapSearch.instance.searchDistrict(
                 _keywordController.text,

@@ -145,7 +145,7 @@ class _AroundPoiScreenState extends State<AroundPoiScreen> {
               ),
             ],
           ),
-          RaisedButton(
+          TextButton(
             onPressed: () async {
               final poiList = await AmapSearch.instance.searchAround(
                 LatLng(
@@ -162,7 +162,7 @@ class _AroundPoiScreenState extends State<AroundPoiScreen> {
             },
             child: const Text('搜索'),
           ),
-          RaisedButton(
+          TextButton(
             onPressed: () async {
               final poiList = await AmapSearch.instance.searchAround(
                 LatLng(
@@ -215,7 +215,7 @@ class _InputTipScreenState extends State<InputTipScreen> {
             controller: _cityController,
             decoration: const InputDecoration(hintText: '输入所在城市'),
           ),
-          RaisedButton(
+          TextButton(
             onPressed: () async {
               final inputTipList = await AmapSearch.instance.fetchInputTips(
                 _keywordController.text,
