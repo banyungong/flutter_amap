@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 import androidx.annotation.NonNull;
+
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.embedding.engine.plugins.activity.ActivityAware;
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding;
@@ -38,7 +39,7 @@ public class AmapMapFluttifyPlugin implements FlutterPlugin, MethodChannel.Metho
     private Map<String, Handler> subHandlerCustom;
     private List<Map<String, Handler>> handlerMapList;
 
-
+    private Activity activity;
 
     // v1 android embedding for compatible
     public static void registerWith(Registrar registrar) {
@@ -130,9 +131,9 @@ public class AmapMapFluttifyPlugin implements FlutterPlugin, MethodChannel.Metho
         if (getEnableLog()) {
             Log.d("fluttify-java", "AmapMapFluttifyPlugin::onAttachedToActivity@" + binding);
         }
-        Activity activity = binding.getActivity();
+        activity = binding.getActivity();
 
-        subHandlerCustom=SubHandlerCustom.getSubHandler(messenger, activity);
+        subHandlerCustom = SubHandlerCustom.getSubHandler(messenger, activity);
         handlerMapList.add(subHandlerCustom);
         // register platform view
         platformViewRegistry.registerViewFactory("me.yohom/com.amap.api.maps.offlinemap.DownloadProgressView", new DownloadProgressViewFactory(messenger, activity));
@@ -147,6 +148,7 @@ public class AmapMapFluttifyPlugin implements FlutterPlugin, MethodChannel.Metho
             Log.d("fluttify-java", "AmapMapFluttifyPlugin::onDetachedFromActivity");
         }
         handlerMapList.remove(SubHandlerCustom.getSubHandler(messenger, activity));
+        activity = null;
 
     }
 
