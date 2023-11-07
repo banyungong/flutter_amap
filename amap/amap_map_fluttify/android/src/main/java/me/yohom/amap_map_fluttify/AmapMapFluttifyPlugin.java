@@ -35,7 +35,10 @@ import static me.yohom.foundation_fluttify.FoundationFluttifyPluginKt.getHEAP;
 @SuppressWarnings("ALL")
 public class AmapMapFluttifyPlugin implements FlutterPlugin, MethodChannel.MethodCallHandler, ActivityAware {
 
+    private Map<String, Handler> subHandlerCustom;
     private List<Map<String, Handler>> handlerMapList;
+
+
 
     // v1 android embedding for compatible
     public static void registerWith(Registrar registrar) {
@@ -67,7 +70,8 @@ public class AmapMapFluttifyPlugin implements FlutterPlugin, MethodChannel.Metho
         plugin.handlerMapList.add(SubHandler13.getSubHandler(messenger));
         plugin.handlerMapList.add(SubHandler14.getSubHandler(messenger));
         plugin.handlerMapList.add(SubHandler15.getSubHandler(messenger));
-        plugin.handlerMapList.add(SubHandlerCustom.instance.getSubHandler(messenger, registrar.activity()));
+        plugin.subHandlerCustom = SubHandlerCustom.getSubHandler(messenger, registrar.activity());
+        plugin.handlerMapList.add(plugin.subHandlerCustom);
 
         channel.setMethodCallHandler(plugin);
 
@@ -128,8 +132,8 @@ public class AmapMapFluttifyPlugin implements FlutterPlugin, MethodChannel.Metho
         }
         Activity activity = binding.getActivity();
 
-        handlerMapList.add(SubHandlerCustom.instance.getSubHandler(messenger, activity));
-
+        subHandlerCustom=SubHandlerCustom.getSubHandler(messenger, activity);
+        handlerMapList.add(subHandlerCustom);
         // register platform view
         platformViewRegistry.registerViewFactory("me.yohom/com.amap.api.maps.offlinemap.DownloadProgressView", new DownloadProgressViewFactory(messenger, activity));
         platformViewRegistry.registerViewFactory("me.yohom/com.amap.api.maps.TextureMapView", new TextureMapViewFactory(messenger, activity));
@@ -142,6 +146,8 @@ public class AmapMapFluttifyPlugin implements FlutterPlugin, MethodChannel.Metho
         if (getEnableLog()) {
             Log.d("fluttify-java", "AmapMapFluttifyPlugin::onDetachedFromActivity");
         }
+        handlerMapList.remove(SubHandlerCustom.getSubHandler(messenger, activity));
+
     }
 
     @Override

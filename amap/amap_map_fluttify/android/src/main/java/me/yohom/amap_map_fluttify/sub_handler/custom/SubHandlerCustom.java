@@ -31,11 +31,6 @@ import static me.yohom.foundation_fluttify.FoundationFluttifyPluginKt.getSTACK;
 
 @SuppressWarnings("ALL")
 public class SubHandlerCustom {
-
-    public static final SubHandlerCustom instance = new SubHandlerCustom();
-
-    private SubHandlerCustom() { }
-
     public static Map<String, Handler> getSubHandler(BinaryMessenger messenger, Activity activity) {
         return new HashMap<String, Handler>() {{
             put("com.amap.api.maps.AMap::setInfoWindowAdapterX", (__args__, __methodResult__) -> {
