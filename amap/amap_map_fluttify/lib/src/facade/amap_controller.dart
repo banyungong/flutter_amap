@@ -2991,7 +2991,7 @@ class AmapController with WidgetsBindingObserver, IMapController {
     await _locateSubscription?.cancel();
 
     await androidController?.onPause();
-    // await androidController?.onDestroy();
+    await androidController?.onDestroy();
 
     WidgetsBinding.instance.removeObserver(this);
   }

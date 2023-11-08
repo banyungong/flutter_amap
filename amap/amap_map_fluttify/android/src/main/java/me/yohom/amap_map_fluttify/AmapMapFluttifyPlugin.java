@@ -124,6 +124,7 @@ public class AmapMapFluttifyPlugin implements FlutterPlugin, MethodChannel.Metho
         if (getEnableLog()) {
             Log.d("fluttify-java", "AmapMapFluttifyPlugin::onDetachedFromEngine@" + binding);
         }
+        handlerMapList.clear();
     }
 
     @Override
@@ -147,7 +148,12 @@ public class AmapMapFluttifyPlugin implements FlutterPlugin, MethodChannel.Metho
         if (getEnableLog()) {
             Log.d("fluttify-java", "AmapMapFluttifyPlugin::onDetachedFromActivity");
         }
-        handlerMapList.remove(SubHandlerCustom.getSubHandler(messenger, activity));
+        handlerMapList.remove(subHandlerCustom);
+        subHandlerCustom = null;
+        platformViewRegistry.registerViewFactory("me.yohom/com.amap.api.maps.offlinemap.DownloadProgressView", null);
+        platformViewRegistry.registerViewFactory("me.yohom/com.amap.api.maps.TextureMapView", null);
+        platformViewRegistry.registerViewFactory("me.yohom/com.amap.api.maps.WearMapView", null);
+        platformViewRegistry.registerViewFactory("me.yohom/com.amap.api.maps.MapView", null);
         activity = null;
 
     }

@@ -2364,9 +2364,9 @@ public class SubHandler14 {
                 com.amap.api.maps.AMapOptions var2 = (com.amap.api.maps.AMapOptions) ((Map<String, Object>) __args__).get("var2");
             
                 // create target object
-                com.amap.api.maps.TextureMapView __obj__ = new com.amap.api.maps.TextureMapView(var1, var2);
+//                com.amap.api.maps.TextureMapView __obj__ = new com.amap.api.maps.TextureMapView(var1, var2);
             
-                __methodResult__.success(__obj__);
+                __methodResult__.success(null);
             });
             // factory
             put("ObjectFactory::createcom_amap_api_maps_AMapUtils__", (__args__, __methodResult__) -> {
