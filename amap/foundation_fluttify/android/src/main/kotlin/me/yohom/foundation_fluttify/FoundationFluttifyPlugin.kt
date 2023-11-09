@@ -145,8 +145,6 @@ class FoundationFluttifyPlugin : FlutterPlugin, ActivityAware, MethodCallHandler
         activity = null
         activityBinding = null
         platformViewRegistry=null
-        HEAP.clear()
-        STACK.clear()
     }
 
     override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
