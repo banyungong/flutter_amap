@@ -49,7 +49,6 @@ val HEAP = mutableMapOf<String, Any>()
 var enableLog: Boolean = false
 
 // method channel for foundation
-var gMethodChannel: MethodChannel?=null
 
 class FoundationFluttifyPlugin : FlutterPlugin, ActivityAware, MethodCallHandler {
     private var applicationContext: Context? = null
@@ -59,6 +58,7 @@ class FoundationFluttifyPlugin : FlutterPlugin, ActivityAware, MethodCallHandler
     private var registrar: Registrar? = null
     private var platformViewRegistry: PlatformViewRegistry? = null
     private var binaryMessenger: BinaryMessenger? = null
+    private var gMethodChannel: MethodChannel?=null
 
     companion object {
         @JvmStatic
@@ -73,12 +73,12 @@ class FoundationFluttifyPlugin : FlutterPlugin, ActivityAware, MethodCallHandler
             plugin.platformViewRegistry?.registerViewFactory("me.yohom/foundation_fluttify/android.widget.FrameLayout", android_widget_FrameLayoutFactory())
             plugin.platformViewRegistry?.registerViewFactory("me.yohom/foundation_fluttify/android.opengl.GLSurfaceView", android_opengl_GLSurfaceViewFactory())
 
-            gMethodChannel = MethodChannel(
+            plugin.gMethodChannel = MethodChannel(
                 registrar.messenger(),
                 "com.fluttify/foundation_method",
                 StandardMethodCodec(FluttifyMessageCodec())
             )
-            gMethodChannel?.setMethodCallHandler(plugin)
+            plugin.gMethodChannel?.setMethodCallHandler(plugin)
 
         }
     }
@@ -130,7 +130,6 @@ class FoundationFluttifyPlugin : FlutterPlugin, ActivityAware, MethodCallHandler
         pluginBinding = null
         activity = null
         activityBinding = null
-        gMethodChannel = null
     }
 
     override fun onAttachedToActivity(binding: ActivityPluginBinding) {
