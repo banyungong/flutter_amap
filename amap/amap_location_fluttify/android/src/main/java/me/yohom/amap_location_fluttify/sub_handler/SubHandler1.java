@@ -35,16 +35,16 @@ public class SubHandler1 {
             // method
             put("com.amap.api.fence.GeoFenceClient::getAllGeoFence", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::getAllGeoFence(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 java.util.List<com.amap.api.fence.GeoFence> __result__ = null;
                 try {
@@ -57,7 +57,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -67,15 +67,15 @@ public class SubHandler1 {
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
                 // ref arg
                 boolean var2 = (boolean) ((Map<String, Object>) __args__).get("var2");
-            
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::setGeoFenceAble(" + var1 + var2 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -88,22 +88,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFenceClient::pauseGeoFence", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::pauseGeoFence(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -116,22 +116,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFenceClient::resumeGeoFence", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::resumeGeoFence(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -144,22 +144,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFenceClient::isPause", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::isPause(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -172,22 +172,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getFenceId", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getFenceId(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -200,7 +200,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -208,15 +208,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setFenceId(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -229,22 +229,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getCustomId", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getCustomId(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -257,7 +257,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -265,15 +265,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setCustomId(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -286,22 +286,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getPendingIntentAction", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getPendingIntentAction(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -314,7 +314,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -322,15 +322,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setPendingIntentAction(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -343,22 +343,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getPendingIntent", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getPendingIntent(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 android.app.PendingIntent __result__ = null;
                 try {
@@ -371,7 +371,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -379,15 +379,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 android.app.PendingIntent var1 = (android.app.PendingIntent) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setPendingIntent(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -400,22 +400,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getType", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getType(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -428,7 +428,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -436,15 +436,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setType(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -457,22 +457,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getPoiItem", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getPoiItem(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.fence.PoiItem __result__ = null;
                 try {
@@ -485,7 +485,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -493,15 +493,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 com.amap.api.fence.PoiItem var1 = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setPoiItem(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -514,22 +514,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getDistrictItemList", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getDistrictItemList(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 java.util.List<com.amap.api.fence.DistrictItem> __result__ = null;
                 try {
@@ -542,7 +542,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -550,15 +550,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 java.util.List<com.amap.api.fence.DistrictItem> var1 = (java.util.List<com.amap.api.fence.DistrictItem>) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setDistrictItemList(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -571,7 +571,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -579,15 +579,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 java.util.List<java.util.List<com.amap.api.location.DPoint>> var1 = (java.util.List<java.util.List<com.amap.api.location.DPoint>>) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setPointList(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -600,22 +600,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getRadius", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getRadius(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Float __result__ = null;
                 try {
@@ -628,7 +628,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -636,15 +636,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setRadius(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -657,22 +657,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getExpiration", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getExpiration(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Long __result__ = null;
                 try {
@@ -685,7 +685,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -693,15 +693,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setExpiration(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -714,22 +714,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getActivatesAction", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getActivatesAction(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -742,7 +742,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -750,15 +750,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setActivatesAction(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -771,22 +771,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getStatus", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getStatus(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -799,7 +799,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -807,15 +807,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setStatus(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -828,22 +828,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getEnterTime", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getEnterTime(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Long __result__ = null;
                 try {
@@ -856,7 +856,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -864,15 +864,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setEnterTime(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -885,22 +885,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getCenter", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getCenter(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.DPoint __result__ = null;
                 try {
@@ -913,7 +913,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -921,15 +921,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 com.amap.api.location.DPoint var1 = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setCenter(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -942,22 +942,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getMinDis2Center", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getMinDis2Center(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Float __result__ = null;
                 try {
@@ -970,7 +970,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -978,15 +978,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setMinDis2Center(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -999,22 +999,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getMaxDis2Center", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getMaxDis2Center(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Float __result__ = null;
                 try {
@@ -1027,7 +1027,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1035,15 +1035,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setMaxDis2Center(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1056,22 +1056,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::isAble", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::isAble(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -1084,7 +1084,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1092,15 +1092,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setAble(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1113,7 +1113,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1121,15 +1121,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 com.amap.api.location.AMapLocation var1 = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::setCurrentLocation(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1142,22 +1142,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFence::getCurrentLocation", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFence __this__ = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFence@" + __this__ + "::getCurrentLocation(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocation __result__ = null;
                 try {
@@ -1170,22 +1170,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.PoiItem::getLatitude", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::getLatitude(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Double __result__ = null;
                 try {
@@ -1198,7 +1198,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1206,15 +1206,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::setLatitude(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1227,22 +1227,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.PoiItem::getLongitude", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::getLongitude(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Double __result__ = null;
                 try {
@@ -1255,7 +1255,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1263,15 +1263,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::setLongitude(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1284,22 +1284,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.PoiItem::getPoiId", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::getPoiId(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1312,7 +1312,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1320,15 +1320,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::setPoiId(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1341,22 +1341,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.PoiItem::getPoiType", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::getPoiType(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1369,7 +1369,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1377,15 +1377,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::setPoiType(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1398,22 +1398,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.PoiItem::getTypeCode", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::getTypeCode(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1426,7 +1426,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1434,15 +1434,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::setTypeCode(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1455,22 +1455,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.PoiItem::getAddress", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::getAddress(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1483,7 +1483,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1491,15 +1491,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::setAddress(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1512,22 +1512,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.PoiItem::getTel", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::getTel(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1540,7 +1540,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1548,15 +1548,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::setTel(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1569,22 +1569,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.PoiItem::getProvince", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::getProvince(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1597,7 +1597,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1605,15 +1605,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::setProvince(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1626,22 +1626,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.PoiItem::getCity", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::getCity(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1654,7 +1654,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1662,15 +1662,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::setCity(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1683,22 +1683,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.PoiItem::getAdname", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::getAdname(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1711,22 +1711,22 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.PoiItem::getPoiName", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::getPoiName(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1739,7 +1739,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1747,15 +1747,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::setPoiName(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1768,7 +1768,7 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1776,15 +1776,15 @@ public class SubHandler1 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.PoiItem __this__ = (com.amap.api.fence.PoiItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.PoiItem@" + __this__ + "::setAdname(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1797,23 +1797,23 @@ public class SubHandler1 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::setLocationOption_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     com.amap.api.location.AMapLocationClientOption var1 = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -1826,25 +1826,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::startLocation_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -1857,25 +1857,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::stopLocation_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -1888,25 +1888,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::getLastKnownLocation_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocation> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocation __result__ = null;
                     try {
@@ -1919,25 +1919,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::stopAssistantLocation_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -1950,25 +1950,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::getVersion_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -1981,19 +1981,19 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::updatePrivacyShow_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     android.content.Context var0 = (android.content.Context) ((Map<String, Object>) __args__).get("var0");
@@ -2001,10 +2001,10 @@ public class SubHandler1 {
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
                     // ref arg
                     boolean var2 = (boolean) ((Map<String, Object>) __args__).get("var2");
-            
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2017,28 +2017,28 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::updatePrivacyAgree_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     android.content.Context var0 = (android.content.Context) ((Map<String, Object>) __args__).get("var0");
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2051,26 +2051,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::setApiKey_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var0 = (String) ((Map<String, Object>) __args__).get("var0");
-            
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2083,25 +2083,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::isStarted_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -2114,25 +2114,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::onDestroy_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2145,28 +2145,28 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::enableBackgroundLocation_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
                     // ref arg
                     android.app.Notification var2 = (android.app.Notification) ((Map<String, Object>) __args__).get("var2");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2179,26 +2179,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::disableBackgroundLocation_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2211,26 +2211,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::getDeviceId_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     android.content.Context var0 = (android.content.Context) ((Map<String, Object>) __args__).get("var0");
-            
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -2243,26 +2243,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::setHost_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var0 = (String) ((Map<String, Object>) __args__).get("var0");
-            
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2275,25 +2275,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.APSService::onCreate_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.APSService __this__ = (com.amap.api.location.APSService) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2306,19 +2306,19 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.APSService::onStartCommand_batch", (__argsBatch__, __methodResult__) -> {
                 List<Integer> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     android.content.Intent var1 = (android.content.Intent) ((Map<String, Object>) __args__).get("var1");
@@ -2326,10 +2326,10 @@ public class SubHandler1 {
                     Number var2 = (Number) ((Map<String, Object>) __args__).get("var2");
                     // ref arg
                     Number var3 = (Number) ((Map<String, Object>) __args__).get("var3");
-            
+
                     // ref
                     com.amap.api.location.APSService __this__ = (com.amap.api.location.APSService) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Integer __result__ = null;
                     try {
@@ -2342,25 +2342,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.APSService::onDestroy_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.APSService __this__ = (com.amap.api.location.APSService) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2373,25 +2373,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.DPoint::getLongitude_batch", (__argsBatch__, __methodResult__) -> {
                 List<Double> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.DPoint __this__ = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Double __result__ = null;
                     try {
@@ -2404,26 +2404,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.DPoint::setLongitude_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.DPoint __this__ = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2436,25 +2436,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.DPoint::getLatitude_batch", (__argsBatch__, __methodResult__) -> {
                 List<Double> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.DPoint __this__ = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Double __result__ = null;
                     try {
@@ -2467,26 +2467,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.DPoint::setLatitude_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.DPoint __this__ = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2499,26 +2499,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.CoordinateConverter::from_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.CoordinateConverter> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // enum arg
                     com.amap.api.location.CoordinateConverter.CoordType var1 = com.amap.api.location.CoordinateConverter.CoordType.values()[(int) ((Map<String, Object>) __args__).get("var1")];
-            
+
                     // ref
                     com.amap.api.location.CoordinateConverter __this__ = (com.amap.api.location.CoordinateConverter) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.CoordinateConverter __result__ = null;
                     try {
@@ -2531,26 +2531,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.CoordinateConverter::coord_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.CoordinateConverter> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     com.amap.api.location.DPoint var1 = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.CoordinateConverter __this__ = (com.amap.api.location.CoordinateConverter) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.CoordinateConverter __result__ = null;
                     try {
@@ -2563,25 +2563,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.CoordinateConverter::convert_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.DPoint> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.CoordinateConverter __this__ = (com.amap.api.location.CoordinateConverter) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.DPoint __result__ = null;
                     try {
@@ -2594,28 +2594,28 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.CoordinateConverter::isAMapDataAvailable_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var0 = (Number) ((Map<String, Object>) __args__).get("var0");
                     // ref arg
                     Number var2 = (Number) ((Map<String, Object>) __args__).get("var2");
-            
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -2628,28 +2628,28 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.CoordinateConverter::calculateLineDistance_batch", (__argsBatch__, __methodResult__) -> {
                 List<Float> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     com.amap.api.location.DPoint var0 = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("var0");
                     // ref arg
                     com.amap.api.location.DPoint var1 = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     Float __result__ = null;
                     try {
@@ -2662,28 +2662,28 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.CoordUtil::convertToGcj_batch", (__argsBatch__, __methodResult__) -> {
                 List<Integer> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     double[] var0 = (double[]) ((Map<String, Object>) __args__).get("var0");
                     // ref arg
                     double[] var1 = (double[]) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     Integer __result__ = null;
                     try {
@@ -2696,25 +2696,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.CoordUtil::isLoadedSo_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -2727,26 +2727,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.CoordUtil::setLoadedSo_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var0 = (boolean) ((Map<String, Object>) __args__).get("var0");
-            
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2759,25 +2759,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol::getValue_batch", (__argsBatch__, __methodResult__) -> {
                 List<Integer> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol __this__ = (com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Integer __result__ = null;
                     try {
@@ -2790,25 +2790,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.UmidtokenInfo::getUmidtoken_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -2821,26 +2821,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.UmidtokenInfo::setLocAble_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var0 = (boolean) ((Map<String, Object>) __args__).get("var0");
-            
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2853,28 +2853,28 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.UmidtokenInfo::setUmidtoken_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     android.content.Context var0 = (android.content.Context) ((Map<String, Object>) __args__).get("var0");
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2887,25 +2887,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getGpsAccuracyStatus_batch", (__argsBatch__, __methodResult__) -> {
                 List<Integer> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Integer __result__ = null;
                     try {
@@ -2918,26 +2918,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setGpsAccuracyStatus_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -2950,25 +2950,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getLocationType_batch", (__argsBatch__, __methodResult__) -> {
                 List<Integer> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Integer __result__ = null;
                     try {
@@ -2981,26 +2981,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setLocationType_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3013,25 +3013,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getLocationDetail_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -3044,26 +3044,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setLocationDetail_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3076,25 +3076,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getErrorCode_batch", (__argsBatch__, __methodResult__) -> {
                 List<Integer> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Integer __result__ = null;
                     try {
@@ -3107,26 +3107,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setErrorCode_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3139,25 +3139,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getErrorInfo_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -3170,26 +3170,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setErrorInfo_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3202,25 +3202,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getCountry_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -3233,26 +3233,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setCountry_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3265,25 +3265,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getRoad_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -3296,26 +3296,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setRoad_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3328,25 +3328,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getAddress_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -3359,26 +3359,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setAddress_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3391,25 +3391,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getProvince_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -3422,26 +3422,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setProvince_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3454,25 +3454,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getCity_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -3485,26 +3485,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setCity_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3517,25 +3517,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getDistrict_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -3548,26 +3548,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setDistrict_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3580,25 +3580,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getCityCode_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -3611,26 +3611,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setCityCode_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3643,25 +3643,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getAdCode_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -3674,26 +3674,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setAdCode_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3706,25 +3706,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getPoiName_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -3737,26 +3737,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setPoiName_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3769,25 +3769,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getLatitude_batch", (__argsBatch__, __methodResult__) -> {
                 List<Double> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Double __result__ = null;
                     try {
@@ -3800,26 +3800,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setLatitude_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3832,25 +3832,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getLongitude_batch", (__argsBatch__, __methodResult__) -> {
                 List<Double> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Double __result__ = null;
                     try {
@@ -3863,26 +3863,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setLongitude_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3895,25 +3895,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getSatellites_batch", (__argsBatch__, __methodResult__) -> {
                 List<Integer> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Integer __result__ = null;
                     try {
@@ -3926,26 +3926,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setSatellites_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -3958,25 +3958,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getStreet_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -3989,26 +3989,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setStreet_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4021,25 +4021,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getStreetNum_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -4052,26 +4052,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setNumber_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4084,26 +4084,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setOffset_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4116,25 +4116,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::isOffset_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -4147,25 +4147,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getAoiName_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -4178,26 +4178,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setAoiName_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4210,25 +4210,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getBuildingId_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -4241,26 +4241,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setBuildingId_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4273,25 +4273,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getFloor_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -4304,25 +4304,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::isFixLastLocation_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -4335,26 +4335,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setFixLastLocation_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4367,26 +4367,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setFloor_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4399,25 +4399,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::isMock_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -4430,26 +4430,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setMock_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4462,25 +4462,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getDescription_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -4493,26 +4493,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setDescription_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4525,25 +4525,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::toStr_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -4556,26 +4556,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::toStr__int_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -4588,25 +4588,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getAccuracy_batch", (__argsBatch__, __methodResult__) -> {
                 List<Float> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Float __result__ = null;
                     try {
@@ -4619,26 +4619,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setBearing_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4651,25 +4651,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getBearing_batch", (__argsBatch__, __methodResult__) -> {
                 List<Float> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Float __result__ = null;
                     try {
@@ -4682,26 +4682,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setAltitude_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4714,25 +4714,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getAltitude_batch", (__argsBatch__, __methodResult__) -> {
                 List<Double> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Double __result__ = null;
                     try {
@@ -4745,26 +4745,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setSpeed_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4777,25 +4777,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getSpeed_batch", (__argsBatch__, __methodResult__) -> {
                 List<Float> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Float __result__ = null;
                     try {
@@ -4808,26 +4808,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setProvider_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4840,25 +4840,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getProvider_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -4871,26 +4871,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setExtras_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     android.os.Bundle var1 = (android.os.Bundle) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -4903,25 +4903,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getExtras_batch", (__argsBatch__, __methodResult__) -> {
                 List<android.os.Bundle> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     android.os.Bundle __result__ = null;
                     try {
@@ -4934,25 +4934,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::clone_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocation> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocation __result__ = null;
                     try {
@@ -4965,25 +4965,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getLocationQualityReport_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationQualityReport> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationQualityReport __result__ = null;
                     try {
@@ -4996,26 +4996,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setLocationQualityReport_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     com.amap.api.location.AMapLocationQualityReport var1 = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -5028,25 +5028,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getCoordType_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -5059,26 +5059,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setCoordType_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -5091,26 +5091,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setTrustedLevel_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -5123,25 +5123,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getTrustedLevel_batch", (__argsBatch__, __methodResult__) -> {
                 List<Integer> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Integer __result__ = null;
                     try {
@@ -5154,25 +5154,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getConScenario_batch", (__argsBatch__, __methodResult__) -> {
                 List<Integer> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Integer __result__ = null;
                     try {
@@ -5185,26 +5185,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocation::setConScenario_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -5217,26 +5217,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setCacheCallBack_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -5249,25 +5249,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getCacheCallBack_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -5280,26 +5280,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setCacheCallBackTime_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -5312,25 +5312,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getCacheCallBackTime_batch", (__argsBatch__, __methodResult__) -> {
                 List<Integer> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Integer __result__ = null;
                     try {
@@ -5343,26 +5343,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setCacheTimeOut_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -5375,25 +5375,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getCacheTimeOut_batch", (__argsBatch__, __methodResult__) -> {
                 List<Integer> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Integer __result__ = null;
                     try {
@@ -5406,25 +5406,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getAPIKEY_batch", (__argsBatch__, __methodResult__) -> {
                 List<String> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     String __result__ = null;
                     try {
@@ -5437,25 +5437,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isMockEnable_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -5468,26 +5468,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setMockEnable_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption __result__ = null;
                     try {
@@ -5500,25 +5500,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getInterval_batch", (__argsBatch__, __methodResult__) -> {
                 List<Long> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Long __result__ = null;
                     try {
@@ -5531,26 +5531,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setInterval_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption __result__ = null;
                     try {
@@ -5563,25 +5563,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isOnceLocation_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -5594,26 +5594,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setOnceLocation_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption __result__ = null;
                     try {
@@ -5626,25 +5626,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isNeedAddress_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -5657,26 +5657,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setNeedAddress_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption __result__ = null;
                     try {
@@ -5689,25 +5689,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isWifiActiveScan_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -5720,26 +5720,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setWifiActiveScan_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption __result__ = null;
                     try {
@@ -5752,25 +5752,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isWifiScan_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -5783,26 +5783,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setWifiScan_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption __result__ = null;
                     try {
@@ -5815,25 +5815,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getLocationMode_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption.AMapLocationMode> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption.AMapLocationMode __result__ = null;
                     try {
@@ -5846,26 +5846,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setLocationMode_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // enum arg
                     com.amap.api.location.AMapLocationClientOption.AMapLocationMode var1 = com.amap.api.location.AMapLocationClientOption.AMapLocationMode.values()[(int) ((Map<String, Object>) __args__).get("var1")];
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption __result__ = null;
                     try {
@@ -5878,25 +5878,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getLocationProtocol_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol __result__ = null;
                     try {
@@ -5909,26 +5909,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setLocationProtocol_batch", (__argsBatch__, __methodResult__) -> {
                 List<Void> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // enum arg
                     com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol var0 = com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol.values()[(int) ((Map<String, Object>) __args__).get("var0")];
-            
+
                     // ref
-            
-            
+
+
                     // invoke native method
                     Void __result__ = null;
                     try {
@@ -5941,25 +5941,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isKillProcess_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -5972,26 +5972,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setKillProcess_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption __result__ = null;
                     try {
@@ -6004,25 +6004,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isGpsFirst_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Boolean __result__ = null;
                     try {
@@ -6035,26 +6035,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setGpsFirst_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption __result__ = null;
                     try {
@@ -6067,26 +6067,26 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::setGpsFirstTimeout_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
                     // ref arg
                     Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption __result__ = null;
                     try {
@@ -6099,25 +6099,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getGpsFirstTimeout_batch", (__argsBatch__, __methodResult__) -> {
                 List<Long> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     Long __result__ = null;
                     try {
@@ -6130,25 +6130,25 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::clone_batch", (__argsBatch__, __methodResult__) -> {
                 List<com.amap.api.location.AMapLocationClientOption> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // args
-            
-            
+
+
                     // ref
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                     // invoke native method
                     com.amap.api.location.AMapLocationClientOption __result__ = null;
                     try {
@@ -6161,10 +6161,10 @@ public class SubHandler1 {
                         __methodResult__.error(throwable.getMessage(), null, null);
                         return;
                     }
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
         }};

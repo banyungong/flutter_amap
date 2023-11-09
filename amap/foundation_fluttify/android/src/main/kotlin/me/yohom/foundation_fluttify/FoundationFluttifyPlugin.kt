@@ -49,7 +49,7 @@ val HEAP = mutableMapOf<String, Any>()
 var enableLog: Boolean = false
 
 // method channel for foundation
-lateinit var gMethodChannel: MethodChannel
+var gMethodChannel: MethodChannel?=null
 
 class FoundationFluttifyPlugin : FlutterPlugin, ActivityAware, MethodCallHandler {
     private var applicationContext: Context? = null
@@ -74,11 +74,11 @@ class FoundationFluttifyPlugin : FlutterPlugin, ActivityAware, MethodCallHandler
             plugin.platformViewRegistry?.registerViewFactory("me.yohom/foundation_fluttify/android.opengl.GLSurfaceView", android_opengl_GLSurfaceViewFactory())
 
             gMethodChannel = MethodChannel(
-                    registrar.messenger(),
-                    "com.fluttify/foundation_method",
-                    StandardMethodCodec(FluttifyMessageCodec())
+                registrar.messenger(),
+                "com.fluttify/foundation_method",
+                StandardMethodCodec(FluttifyMessageCodec())
             )
-            gMethodChannel.setMethodCallHandler(plugin)
+            gMethodChannel?.setMethodCallHandler(plugin)
 
         }
     }
@@ -119,17 +119,18 @@ class FoundationFluttifyPlugin : FlutterPlugin, ActivityAware, MethodCallHandler
         binaryMessenger = binding.binaryMessenger
 
         gMethodChannel = MethodChannel(
-                binding.binaryMessenger,
-                "com.fluttify/foundation_method",
-                StandardMethodCodec(FluttifyMessageCodec())
+            binding.binaryMessenger,
+            "com.fluttify/foundation_method",
+            StandardMethodCodec(FluttifyMessageCodec())
         )
-        gMethodChannel.setMethodCallHandler(this)
+        gMethodChannel?.setMethodCallHandler(this)
     }
 
     override fun onDetachedFromEngine(binding: FlutterPlugin.FlutterPluginBinding) {
         pluginBinding = null
         activity = null
         activityBinding = null
+        gMethodChannel = null
     }
 
     override fun onAttachedToActivity(binding: ActivityPluginBinding) {
@@ -143,6 +144,9 @@ class FoundationFluttifyPlugin : FlutterPlugin, ActivityAware, MethodCallHandler
     override fun onDetachedFromActivity() {
         activity = null
         activityBinding = null
+        platformViewRegistry=null
+        HEAP.clear()
+        STACK.clear()
     }
 
     override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {

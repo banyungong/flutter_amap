@@ -38,6 +38,9 @@ public class AmapLocationFluttifyPlugin implements FlutterPlugin, MethodChannel.
 
     private List<Map<String, Handler>> handlerMapList;
 
+    private SubHandlerCustom subHandlerCustom;
+    private Map<String, Handler> subHandlerMap;
+
     // v1 android embedding for compatible
     public static void registerWith(Registrar registrar) {
         final MethodChannel channel = new MethodChannel(registrar.messenger(), "me.yohom/amap_location_fluttify", new StandardMethodCodec(new FluttifyMessageCodec()));
@@ -55,8 +58,9 @@ public class AmapLocationFluttifyPlugin implements FlutterPlugin, MethodChannel.
         plugin.handlerMapList.add(SubHandler0.getSubHandler(messenger));
         plugin.handlerMapList.add(SubHandler1.getSubHandler(messenger));
         plugin.handlerMapList.add(SubHandler2.getSubHandler(messenger));
-        plugin.handlerMapList.add(SubHandlerCustom.instance.getSubHandler(messenger, registrar.activity()));
-
+        plugin.subHandlerCustom = new SubHandlerCustom();
+        plugin.subHandlerMap = plugin.subHandlerCustom.getSubHandler(messenger, registrar.activity());
+        plugin.handlerMapList.add(plugin.subHandlerMap);
         channel.setMethodCallHandler(plugin);
 
         // register platform view
@@ -102,8 +106,9 @@ public class AmapLocationFluttifyPlugin implements FlutterPlugin, MethodChannel.
             Log.d("fluttify-java", "AmapLocationFluttifyPlugin::onAttachedToActivity@" + binding);
         }
         activity = binding.getActivity();
-
-        handlerMapList.add(SubHandlerCustom.instance.getSubHandler(messenger, activity));
+        subHandlerCustom = new SubHandlerCustom();
+        subHandlerMap = subHandlerCustom.getSubHandler(messenger, activity);
+        handlerMapList.add(subHandlerMap);
         // register platform view
 
     }
@@ -113,9 +118,12 @@ public class AmapLocationFluttifyPlugin implements FlutterPlugin, MethodChannel.
         if (getEnableLog()) {
             Log.d("fluttify-java", "AmapLocationFluttifyPlugin::onDetachedFromActivity");
         }
-        if (activity != null && SubHandlerCustom.instance.receiver != null) {
-            activity.unregisterReceiver(SubHandlerCustom.instance.receiver);
+        if (activity != null && subHandlerCustom.receiver != null) {
+            activity.unregisterReceiver(subHandlerCustom.receiver);
         }
+        handlerMapList.remove(subHandlerMap);
+        subHandlerCustom = null;
+        subHandlerMap=null;
         activity = null;
     }
 

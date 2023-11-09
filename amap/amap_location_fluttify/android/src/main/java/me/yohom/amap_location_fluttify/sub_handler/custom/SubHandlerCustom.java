@@ -33,17 +33,15 @@ import static me.yohom.foundation_fluttify.FoundationFluttifyPluginKt.getHEAP;
 public class SubHandlerCustom {
     static final String GEOFENCE_BROADCAST_ACTION = "com.location.apis.geofencedemo.broadcast";
 
-    public static final SubHandlerCustom instance = new SubHandlerCustom();
-
     public  BroadcastReceiver receiver;
 
-    private SubHandlerCustom() { }
+    public SubHandlerCustom() { }
 
     public Map<String, Handler> getSubHandler(BinaryMessenger messenger, android.app.Activity activity) {
         IntentFilter filter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
         filter.addAction(GEOFENCE_BROADCAST_ACTION);
 
-         receiver = new BroadcastReceiver() {
+        receiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
                 if (GEOFENCE_BROADCAST_ACTION.equals(intent.getAction())) {
@@ -65,7 +63,7 @@ public class SubHandlerCustom {
                     arguments.put("fence", fence);
 
                     new MethodChannel(messenger, "com.amap.api.fence.GeoFenceClient::addGeoFenceX::Callback", new StandardMethodCodec(new FluttifyMessageCodec()))
-                       .invokeMethod("Callback::com.amap.api.fence.GeoFenceClient::addGeoFenceX", arguments);
+                            .invokeMethod("Callback::com.amap.api.fence.GeoFenceClient::addGeoFenceX", arguments);
                 }
             }
         };

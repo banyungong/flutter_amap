@@ -14,6 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 import androidx.annotation.NonNull;
+
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.MethodCall;
@@ -34,58 +35,58 @@ public class SubHandler0 {
         return new HashMap<String, Handler>() {{
             // getter
             put("com.amap.api.location.AMapLocationClientOption::get_OPEN_ALWAYS_SCAN_WIFI", (__rawArgs__, __methodResult__) -> {
-               Map<String, Object> __args__ = (Map<String, Object>) __rawArgs__;
-            
-               // ref object
-               com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) __args__.get("__this__");
-            
-               Boolean __result__ = __this__.OPEN_ALWAYS_SCAN_WIFI;
-            
+                Map<String, Object> __args__ = (Map<String, Object>) __rawArgs__;
+
+                // ref object
+                com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) __args__.get("__this__");
+
+                Boolean __result__ = __this__.OPEN_ALWAYS_SCAN_WIFI;
+
                 __methodResult__.success(__result__);
             });
             // getter
             put("com.amap.api.location.AMapLocationClientOption::get_SCAN_WIFI_INTERVAL", (__rawArgs__, __methodResult__) -> {
-               Map<String, Object> __args__ = (Map<String, Object>) __rawArgs__;
-            
-               // ref object
-               com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) __args__.get("__this__");
-            
-               Long __result__ = __this__.SCAN_WIFI_INTERVAL;
-            
+                Map<String, Object> __args__ = (Map<String, Object>) __rawArgs__;
+
+                // ref object
+                com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) __args__.get("__this__");
+
+                Long __result__ = __this__.SCAN_WIFI_INTERVAL;
+
                 __methodResult__.success(__result__);
             });
             // getter
             put("com.amap.api.location.AMapLocationClientOption::get_OPEN_ALWAYS_SCAN_WIFI_batch", (__argsBatch__, __methodResult__) -> {
                 List<Boolean> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // ref object
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) __args__.get("__this__");
-            
+
                     Boolean __result__ = __this__.OPEN_ALWAYS_SCAN_WIFI;
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // getter
             put("com.amap.api.location.AMapLocationClientOption::get_SCAN_WIFI_INTERVAL_batch", (__argsBatch__, __methodResult__) -> {
                 List<Long> __resultList__ = new ArrayList<>();
-            
+
                 for (int __i__ = 0; __i__ < ((List<Map<String, Object>>) __argsBatch__).size(); __i__++) {
                     Map<String, Object> __args__ = ((List<Map<String, Object>>) __argsBatch__).get(__i__);
-            
+
                     // ref object
                     com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) __args__.get("__this__");
-            
+
                     Long __result__ = __this__.SCAN_WIFI_INTERVAL;
-            
+
                     __resultList__.add(__result__);
                 }
-            
+
                 __methodResult__.success(__resultList__);
             });
             // method
@@ -93,15 +94,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 com.amap.api.location.AMapLocationClientOption var1 = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient@" + __this__ + "::setLocationOption(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -114,7 +115,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -122,15 +123,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 com.amap.api.location.AMapLocationListener var1 = (com.amap.api.location.AMapLocationListener) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient@" + __this__ + "::setLocationListener(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -143,22 +144,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::startLocation", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient@" + __this__ + "::startLocation(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -171,22 +172,31 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::stopLocation", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient@" + __this__ + "::stopLocation(" + "" + ")");
                 }
-            
+
+                try {
+                    for (com.amap.api.location.AMapLocationListener listener : SubHandler2.locationListeners) {
+                        __this__.unRegisterLocationListener(listener);
+                    }
+                    SubHandler2.locationListeners.clear();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -199,22 +209,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::getLastKnownLocation", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient@" + __this__ + "::getLastKnownLocation(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocation __result__ = null;
                 try {
@@ -227,22 +237,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::stopAssistantLocation", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient@" + __this__ + "::stopAssistantLocation(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -255,22 +265,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::getVersion", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient@" + __this__ + "::getVersion(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -283,7 +293,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -295,15 +305,15 @@ public class SubHandler0 {
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
                 // ref arg
                 boolean var2 = (boolean) ((Map<String, Object>) __args__).get("var2");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient::updatePrivacyShow(" + var0 + var1 + var2 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -316,7 +326,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -326,15 +336,15 @@ public class SubHandler0 {
                 android.content.Context var0 = (android.content.Context) ((Map<String, Object>) __args__).get("var0");
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient::updatePrivacyAgree(" + var0 + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -347,7 +357,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -355,15 +365,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var0 = (String) ((Map<String, Object>) __args__).get("var0");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient::setApiKey(" + var0 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -376,22 +386,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::isStarted", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient@" + __this__ + "::isStarted(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -404,7 +414,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -412,15 +422,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 com.amap.api.location.AMapLocationListener var1 = (com.amap.api.location.AMapLocationListener) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient@" + __this__ + "::unRegisterLocationListener(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -433,22 +443,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClient::onDestroy", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient@" + __this__ + "::onDestroy(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -461,7 +471,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -471,15 +481,15 @@ public class SubHandler0 {
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
                 // ref arg
                 android.app.Notification var2 = (android.app.Notification) ((Map<String, Object>) __args__).get("var2");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient@" + __this__ + "::enableBackgroundLocation(" + var1 + var2 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -492,7 +502,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -500,15 +510,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClient __this__ = (com.amap.api.location.AMapLocationClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient@" + __this__ + "::disableBackgroundLocation(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -521,7 +531,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -529,15 +539,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 android.content.Context var0 = (android.content.Context) ((Map<String, Object>) __args__).get("var0");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient::getDeviceId(" + var0 + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -550,7 +560,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -558,15 +568,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var0 = (String) ((Map<String, Object>) __args__).get("var0");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClient::setHost(" + var0 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -579,22 +589,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.APSService::onCreate", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.APSService __this__ = (com.amap.api.location.APSService) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.APSService@" + __this__ + "::onCreate(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -607,7 +617,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -619,15 +629,15 @@ public class SubHandler0 {
                 Number var2 = (Number) ((Map<String, Object>) __args__).get("var2");
                 // ref arg
                 Number var3 = (Number) ((Map<String, Object>) __args__).get("var3");
-            
+
                 // ref
                 com.amap.api.location.APSService __this__ = (com.amap.api.location.APSService) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.APSService@" + __this__ + "::onStartCommand(" + var1 + var2 + var3 + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -640,22 +650,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.APSService::onDestroy", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.APSService __this__ = (com.amap.api.location.APSService) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.APSService@" + __this__ + "::onDestroy(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -668,22 +678,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.DPoint::getLongitude", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.DPoint __this__ = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.DPoint@" + __this__ + "::getLongitude(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Double __result__ = null;
                 try {
@@ -696,7 +706,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -704,15 +714,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.DPoint __this__ = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.DPoint@" + __this__ + "::setLongitude(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -725,22 +735,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.DPoint::getLatitude", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.DPoint __this__ = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.DPoint@" + __this__ + "::getLatitude(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Double __result__ = null;
                 try {
@@ -753,7 +763,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -761,15 +771,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.DPoint __this__ = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.DPoint@" + __this__ + "::setLatitude(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -782,7 +792,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -790,15 +800,15 @@ public class SubHandler0 {
                 // args
                 // enum arg
                 com.amap.api.location.CoordinateConverter.CoordType var1 = com.amap.api.location.CoordinateConverter.CoordType.values()[(int) ((Map<String, Object>) __args__).get("var1")];
-            
+
                 // ref
                 com.amap.api.location.CoordinateConverter __this__ = (com.amap.api.location.CoordinateConverter) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.CoordinateConverter@" + __this__ + "::from(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.CoordinateConverter __result__ = null;
                 try {
@@ -811,7 +821,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -819,15 +829,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 com.amap.api.location.DPoint var1 = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.CoordinateConverter __this__ = (com.amap.api.location.CoordinateConverter) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.CoordinateConverter@" + __this__ + "::coord(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.CoordinateConverter __result__ = null;
                 try {
@@ -840,22 +850,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.CoordinateConverter::convert", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.CoordinateConverter __this__ = (com.amap.api.location.CoordinateConverter) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.CoordinateConverter@" + __this__ + "::convert(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.DPoint __result__ = null;
                 try {
@@ -868,7 +878,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -878,15 +888,15 @@ public class SubHandler0 {
                 Number var0 = (Number) ((Map<String, Object>) __args__).get("var0");
                 // ref arg
                 Number var2 = (Number) ((Map<String, Object>) __args__).get("var2");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.CoordinateConverter::isAMapDataAvailable(" + var0 + var2 + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -899,7 +909,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -909,15 +919,15 @@ public class SubHandler0 {
                 com.amap.api.location.DPoint var0 = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("var0");
                 // ref arg
                 com.amap.api.location.DPoint var1 = (com.amap.api.location.DPoint) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.CoordinateConverter::calculateLineDistance(" + var0 + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Float __result__ = null;
                 try {
@@ -930,7 +940,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -940,15 +950,15 @@ public class SubHandler0 {
                 double[] var0 = (double[]) ((Map<String, Object>) __args__).get("var0");
                 // ref arg
                 double[] var1 = (double[]) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.CoordUtil::convertToGcj(" + var0 + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -961,22 +971,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.CoordUtil::isLoadedSo", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.CoordUtil::isLoadedSo(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -989,7 +999,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -997,15 +1007,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var0 = (boolean) ((Map<String, Object>) __args__).get("var0");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.CoordUtil::setLoadedSo(" + var0 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1018,22 +1028,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol::getValue", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol __this__ = (com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol@" + __this__ + "::getValue(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -1046,22 +1056,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.UmidtokenInfo::getUmidtoken", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.UmidtokenInfo::getUmidtoken(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1074,7 +1084,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1082,15 +1092,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var0 = (boolean) ((Map<String, Object>) __args__).get("var0");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.UmidtokenInfo::setLocAble(" + var0 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1103,7 +1113,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1113,15 +1123,15 @@ public class SubHandler0 {
                 android.content.Context var0 = (android.content.Context) ((Map<String, Object>) __args__).get("var0");
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.UmidtokenInfo::setUmidtoken(" + var0 + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1134,22 +1144,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getGpsAccuracyStatus", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getGpsAccuracyStatus(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -1162,7 +1172,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1170,15 +1180,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setGpsAccuracyStatus(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1191,22 +1201,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getLocationType", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getLocationType(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -1219,7 +1229,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1227,15 +1237,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setLocationType(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1248,22 +1258,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getLocationDetail", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getLocationDetail(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1276,7 +1286,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1284,15 +1294,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setLocationDetail(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1305,22 +1315,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getErrorCode", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getErrorCode(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -1333,7 +1343,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1341,15 +1351,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setErrorCode(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1362,22 +1372,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getErrorInfo", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getErrorInfo(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1390,7 +1400,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1398,15 +1408,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setErrorInfo(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1419,22 +1429,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getCountry", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getCountry(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1447,7 +1457,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1455,15 +1465,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setCountry(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1476,22 +1486,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getRoad", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getRoad(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1504,7 +1514,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1512,15 +1522,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setRoad(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1533,22 +1543,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getAddress", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getAddress(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1561,7 +1571,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1569,15 +1579,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setAddress(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1590,22 +1600,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getProvince", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getProvince(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1618,7 +1628,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1626,15 +1636,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setProvince(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1647,22 +1657,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getCity", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getCity(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1675,7 +1685,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1683,15 +1693,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setCity(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1704,22 +1714,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getDistrict", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getDistrict(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1732,7 +1742,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1740,15 +1750,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setDistrict(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1761,22 +1771,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getCityCode", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getCityCode(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1789,7 +1799,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1797,15 +1807,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setCityCode(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1818,22 +1828,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getAdCode", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getAdCode(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1846,7 +1856,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1854,15 +1864,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setAdCode(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1875,22 +1885,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getPoiName", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getPoiName(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -1903,7 +1913,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1911,15 +1921,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setPoiName(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1932,22 +1942,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getLatitude", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getLatitude(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Double __result__ = null;
                 try {
@@ -1960,7 +1970,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -1968,15 +1978,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setLatitude(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -1989,22 +1999,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getLongitude", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getLongitude(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Double __result__ = null;
                 try {
@@ -2017,7 +2027,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2025,15 +2035,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setLongitude(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2046,22 +2056,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getSatellites", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getSatellites(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -2074,7 +2084,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2082,15 +2092,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setSatellites(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2103,22 +2113,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getStreet", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getStreet(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -2131,7 +2141,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2139,15 +2149,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setStreet(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2160,22 +2170,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getStreetNum", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getStreetNum(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -2188,7 +2198,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2196,15 +2206,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setNumber(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2217,7 +2227,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2225,15 +2235,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setOffset(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2246,22 +2256,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::isOffset", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::isOffset(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -2274,22 +2284,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getAoiName", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getAoiName(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -2302,7 +2312,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2310,15 +2320,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setAoiName(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2331,22 +2341,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getBuildingId", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getBuildingId(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -2359,7 +2369,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2367,15 +2377,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setBuildingId(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2388,22 +2398,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getFloor", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getFloor(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -2416,22 +2426,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::isFixLastLocation", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::isFixLastLocation(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -2444,7 +2454,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2452,15 +2462,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setFixLastLocation(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2473,7 +2483,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2481,15 +2491,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setFloor(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2502,22 +2512,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::isMock", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::isMock(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -2530,7 +2540,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2538,15 +2548,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setMock(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2559,22 +2569,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getDescription", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getDescription(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -2587,7 +2597,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2595,15 +2605,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setDescription(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2616,22 +2626,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::toStr", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::toStr(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -2644,7 +2654,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2652,15 +2662,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::toStr(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -2673,22 +2683,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getAccuracy", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getAccuracy(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Float __result__ = null;
                 try {
@@ -2701,7 +2711,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2709,15 +2719,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setBearing(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2730,22 +2740,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getBearing", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getBearing(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Float __result__ = null;
                 try {
@@ -2758,7 +2768,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2766,15 +2776,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setAltitude(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2787,22 +2797,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getAltitude", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getAltitude(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Double __result__ = null;
                 try {
@@ -2815,7 +2825,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2823,15 +2833,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setSpeed(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2844,22 +2854,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getSpeed", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getSpeed(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Float __result__ = null;
                 try {
@@ -2872,7 +2882,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2880,15 +2890,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setProvider(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2901,22 +2911,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getProvider", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getProvider(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -2929,7 +2939,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -2937,15 +2947,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 android.os.Bundle var1 = (android.os.Bundle) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setExtras(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -2958,22 +2968,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getExtras", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getExtras(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 android.os.Bundle __result__ = null;
                 try {
@@ -2986,22 +2996,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::clone", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::clone(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocation __result__ = null;
                 try {
@@ -3014,22 +3024,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getLocationQualityReport", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getLocationQualityReport(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationQualityReport __result__ = null;
                 try {
@@ -3042,7 +3052,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3050,15 +3060,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 com.amap.api.location.AMapLocationQualityReport var1 = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setLocationQualityReport(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -3071,22 +3081,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getCoordType", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getCoordType(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -3099,7 +3109,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3107,15 +3117,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setCoordType(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -3128,7 +3138,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3136,15 +3146,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setTrustedLevel(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -3157,22 +3167,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getTrustedLevel", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getTrustedLevel(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -3185,22 +3195,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocation::getConScenario", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::getConScenario(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -3213,7 +3223,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3221,15 +3231,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocation __this__ = (com.amap.api.location.AMapLocation) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocation@" + __this__ + "::setConScenario(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -3242,7 +3252,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3250,15 +3260,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setCacheCallBack(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -3271,22 +3281,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getCacheCallBack", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getCacheCallBack(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -3299,7 +3309,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3307,15 +3317,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setCacheCallBackTime(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -3328,22 +3338,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getCacheCallBackTime", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getCacheCallBackTime(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -3356,7 +3366,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3364,15 +3374,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setCacheTimeOut(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -3385,22 +3395,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getCacheTimeOut", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getCacheTimeOut(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -3413,22 +3423,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getAPIKEY", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption::getAPIKEY(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -3441,22 +3451,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isMockEnable", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::isMockEnable(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -3469,7 +3479,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3477,15 +3487,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setMockEnable(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -3498,22 +3508,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getInterval", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getInterval(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Long __result__ = null;
                 try {
@@ -3526,7 +3536,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3534,15 +3544,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setInterval(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -3555,22 +3565,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isOnceLocation", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::isOnceLocation(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -3583,7 +3593,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3591,15 +3601,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setOnceLocation(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -3612,22 +3622,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isNeedAddress", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::isNeedAddress(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -3640,7 +3650,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3648,15 +3658,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setNeedAddress(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -3669,22 +3679,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isWifiActiveScan", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::isWifiActiveScan(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -3697,7 +3707,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3705,15 +3715,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setWifiActiveScan(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -3726,22 +3736,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isWifiScan", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::isWifiScan(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -3754,7 +3764,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3762,15 +3772,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setWifiScan(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -3783,22 +3793,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getLocationMode", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getLocationMode(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption.AMapLocationMode __result__ = null;
                 try {
@@ -3811,7 +3821,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3819,15 +3829,15 @@ public class SubHandler0 {
                 // args
                 // enum arg
                 com.amap.api.location.AMapLocationClientOption.AMapLocationMode var1 = com.amap.api.location.AMapLocationClientOption.AMapLocationMode.values()[(int) ((Map<String, Object>) __args__).get("var1")];
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setLocationMode(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -3840,22 +3850,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getLocationProtocol", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getLocationProtocol(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol __result__ = null;
                 try {
@@ -3868,7 +3878,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3876,15 +3886,15 @@ public class SubHandler0 {
                 // args
                 // enum arg
                 com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol var0 = com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol.values()[(int) ((Map<String, Object>) __args__).get("var0")];
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption::setLocationProtocol(" + var0 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -3897,22 +3907,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isKillProcess", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::isKillProcess(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -3925,7 +3935,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3933,15 +3943,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setKillProcess(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -3954,22 +3964,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isGpsFirst", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::isGpsFirst(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -3982,7 +3992,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -3990,15 +4000,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setGpsFirst(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -4011,7 +4021,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4019,15 +4029,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setGpsFirstTimeout(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -4040,22 +4050,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getGpsFirstTimeout", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getGpsFirstTimeout(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Long __result__ = null;
                 try {
@@ -4068,22 +4078,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::clone", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::clone(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -4096,22 +4106,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getHttpTimeOut", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getHttpTimeOut(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Long __result__ = null;
                 try {
@@ -4124,7 +4134,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4132,15 +4142,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setHttpTimeOut(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -4153,22 +4163,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isOffset", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::isOffset(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -4181,7 +4191,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4189,15 +4199,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setOffset(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -4210,22 +4220,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isLocationCacheEnable", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::isLocationCacheEnable(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -4238,7 +4248,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4246,15 +4256,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setLocationCacheEnable(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -4267,22 +4277,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isOnceLocationLatest", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::isOnceLocationLatest(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -4295,7 +4305,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4303,15 +4313,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setOnceLocationLatest(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -4324,22 +4334,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isSensorEnable", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::isSensorEnable(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -4352,7 +4362,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4360,15 +4370,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setSensorEnable(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -4381,7 +4391,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4389,15 +4399,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setLastLocationLifeCycle(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -4410,22 +4420,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getLastLocationLifeCycle", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getLastLocationLifeCycle(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Long __result__ = null;
                 try {
@@ -4438,22 +4448,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getGeoLanguage", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getGeoLanguage(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption.GeoLanguage __result__ = null;
                 try {
@@ -4466,7 +4476,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4474,15 +4484,15 @@ public class SubHandler0 {
                 // args
                 // enum arg
                 com.amap.api.location.AMapLocationClientOption.GeoLanguage var1 = com.amap.api.location.AMapLocationClientOption.GeoLanguage.values()[(int) ((Map<String, Object>) __args__).get("var1")];
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setGeoLanguage(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -4495,7 +4505,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4503,15 +4513,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var0 = (boolean) ((Map<String, Object>) __args__).get("var0");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption::setDownloadCoordinateConvertLibrary(" + var0 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -4524,22 +4534,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isDownloadCoordinateConvertLibrary", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption::isDownloadCoordinateConvertLibrary(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -4552,22 +4562,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getDeviceModeDistanceFilter", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getDeviceModeDistanceFilter(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Float __result__ = null;
                 try {
@@ -4580,7 +4590,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4588,15 +4598,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setDeviceModeDistanceFilter(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -4609,7 +4619,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4617,15 +4627,15 @@ public class SubHandler0 {
                 // args
                 // enum arg
                 com.amap.api.location.AMapLocationClientOption.AMapLocationPurpose var1 = com.amap.api.location.AMapLocationClientOption.AMapLocationPurpose.values()[(int) ((Map<String, Object>) __args__).get("var1")];
-            
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::setLocationPurpose(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption __result__ = null;
                 try {
@@ -4638,22 +4648,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getLocationPurpose", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getLocationPurpose(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 com.amap.api.location.AMapLocationClientOption.AMapLocationPurpose __result__ = null;
                 try {
@@ -4666,22 +4676,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::isOpenAlwaysScanWifi", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption::isOpenAlwaysScanWifi(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -4694,7 +4704,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4702,15 +4712,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var0 = (boolean) ((Map<String, Object>) __args__).get("var0");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption::setOpenAlwaysScanWifi(" + var0 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -4723,7 +4733,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4731,15 +4741,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var0 = (Number) ((Map<String, Object>) __args__).get("var0");
-            
+
                 // ref
-            
-            
+
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption::setScanWifiInterval(" + var0 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -4752,22 +4762,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationClientOption::getScanWifiInterval", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationClientOption __this__ = (com.amap.api.location.AMapLocationClientOption) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationClientOption@" + __this__ + "::getScanWifiInterval(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Long __result__ = null;
                 try {
@@ -4780,7 +4790,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4788,15 +4798,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::setWifiAble(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -4809,7 +4819,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4817,15 +4827,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::setGpsStatus(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -4838,7 +4848,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4846,15 +4856,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::setGPSSatellites(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -4867,22 +4877,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationQualityReport::isWifiAble", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::isWifiAble(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -4895,22 +4905,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationQualityReport::getGPSStatus", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::getGPSStatus(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -4923,22 +4933,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationQualityReport::getGPSSatellites", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::getGPSSatellites(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Integer __result__ = null;
                 try {
@@ -4951,22 +4961,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationQualityReport::getNetworkType", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::getNetworkType(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -4979,7 +4989,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -4987,15 +4997,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::setNetworkType(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5008,22 +5018,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationQualityReport::getNetUseTime", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::getNetUseTime(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Long __result__ = null;
                 try {
@@ -5036,7 +5046,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5044,15 +5054,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::setNetUseTime(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5065,7 +5075,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5073,15 +5083,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 boolean var1 = (boolean) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::setInstallHighDangerMockApp(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5094,22 +5104,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationQualityReport::isInstalledHighDangerMockApp", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::isInstalledHighDangerMockApp(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -5122,7 +5132,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5130,15 +5140,15 @@ public class SubHandler0 {
                 // args
                 // enum arg
                 com.amap.api.location.AMapLocationClientOption.AMapLocationMode var1 = com.amap.api.location.AMapLocationClientOption.AMapLocationMode.values()[(int) ((Map<String, Object>) __args__).get("var1")];
-            
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::setLocationMode(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5151,22 +5161,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.location.AMapLocationQualityReport::getAdviseMessage", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.location.AMapLocationQualityReport __this__ = (com.amap.api.location.AMapLocationQualityReport) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.location.AMapLocationQualityReport@" + __this__ + "::getAdviseMessage(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -5179,22 +5189,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.DistrictItem::getCitycode", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.DistrictItem __this__ = (com.amap.api.fence.DistrictItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.DistrictItem@" + __this__ + "::getCitycode(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -5207,7 +5217,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5215,15 +5225,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.DistrictItem __this__ = (com.amap.api.fence.DistrictItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.DistrictItem@" + __this__ + "::setCitycode(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5236,22 +5246,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.DistrictItem::getAdcode", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.DistrictItem __this__ = (com.amap.api.fence.DistrictItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.DistrictItem@" + __this__ + "::getAdcode(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -5264,7 +5274,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5272,15 +5282,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.DistrictItem __this__ = (com.amap.api.fence.DistrictItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.DistrictItem@" + __this__ + "::setAdcode(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5293,22 +5303,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.DistrictItem::getPolyline", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.DistrictItem __this__ = (com.amap.api.fence.DistrictItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.DistrictItem@" + __this__ + "::getPolyline(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 java.util.List<com.amap.api.location.DPoint> __result__ = null;
                 try {
@@ -5321,7 +5331,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5329,15 +5339,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 java.util.List<com.amap.api.location.DPoint> var1 = (java.util.List<com.amap.api.location.DPoint>) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.DistrictItem __this__ = (com.amap.api.fence.DistrictItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.DistrictItem@" + __this__ + "::setPolyline(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5350,22 +5360,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.DistrictItem::getDistrictName", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.DistrictItem __this__ = (com.amap.api.fence.DistrictItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.DistrictItem@" + __this__ + "::getDistrictName(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 String __result__ = null;
                 try {
@@ -5378,7 +5388,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5386,15 +5396,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.DistrictItem __this__ = (com.amap.api.fence.DistrictItem) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.DistrictItem@" + __this__ + "::setDistrictName(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5407,7 +5417,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5415,15 +5425,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::createPendingIntent(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 android.app.PendingIntent __result__ = null;
                 try {
@@ -5436,7 +5446,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5444,15 +5454,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 Number var1 = (Number) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::setActivateAction(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5465,7 +5475,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5473,15 +5483,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 com.amap.api.fence.GeoFenceListener var1 = (com.amap.api.fence.GeoFenceListener) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::setGeoFenceListener(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5494,7 +5504,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5506,15 +5516,15 @@ public class SubHandler0 {
                 Number var2 = (Number) ((Map<String, Object>) __args__).get("var2");
                 // ref arg
                 String var3 = (String) ((Map<String, Object>) __args__).get("var3");
-            
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::addGeoFence(" + var1 + var2 + var3 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5527,7 +5537,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5537,15 +5547,15 @@ public class SubHandler0 {
                 java.util.List<com.amap.api.location.DPoint> var1 = (java.util.List<com.amap.api.location.DPoint>) ((Map<String, Object>) __args__).get("var1");
                 // ref arg
                 String var2 = (String) ((Map<String, Object>) __args__).get("var2");
-            
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::addGeoFence(" + var1 + var2 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5558,7 +5568,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5576,15 +5586,15 @@ public class SubHandler0 {
                 Number var5 = (Number) ((Map<String, Object>) __args__).get("var5");
                 // ref arg
                 String var6 = (String) ((Map<String, Object>) __args__).get("var6");
-            
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::addGeoFence(" + var1 + var2 + var3 + var4 + var5 + var6 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5597,7 +5607,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5613,15 +5623,15 @@ public class SubHandler0 {
                 Number var4 = (Number) ((Map<String, Object>) __args__).get("var4");
                 // ref arg
                 String var5 = (String) ((Map<String, Object>) __args__).get("var5");
-            
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::addGeoFence(" + var1 + var2 + var3 + var4 + var5 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5634,7 +5644,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5644,15 +5654,15 @@ public class SubHandler0 {
                 String var1 = (String) ((Map<String, Object>) __args__).get("var1");
                 // ref arg
                 String var2 = (String) ((Map<String, Object>) __args__).get("var2");
-            
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::addGeoFence(" + var1 + var2 + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5665,22 +5675,22 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
             put("com.amap.api.fence.GeoFenceClient::removeGeoFence", (__args__, __methodResult__) -> {
                 // args
-            
-            
+
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::removeGeoFence(" + "" + ")");
                 }
-            
+
                 // invoke native method
                 Void __result__ = null;
                 try {
@@ -5693,7 +5703,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
             // method
@@ -5701,15 +5711,15 @@ public class SubHandler0 {
                 // args
                 // ref arg
                 com.amap.api.fence.GeoFence var1 = (com.amap.api.fence.GeoFence) ((Map<String, Object>) __args__).get("var1");
-            
+
                 // ref
                 com.amap.api.fence.GeoFenceClient __this__ = (com.amap.api.fence.GeoFenceClient) ((Map<String, Object>) __args__).get("__this__");
-            
+
                 // print log
                 if (getEnableLog()) {
                     Log.d("fluttify-java", "fluttify-java: com.amap.api.fence.GeoFenceClient@" + __this__ + "::removeGeoFence(" + var1 + ")");
                 }
-            
+
                 // invoke native method
                 Boolean __result__ = null;
                 try {
@@ -5722,7 +5732,7 @@ public class SubHandler0 {
                     __methodResult__.error(throwable.getMessage(), null, null);
                     return;
                 }
-            
+
                 __methodResult__.success(__result__);
             });
         }};
