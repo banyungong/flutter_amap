@@ -12,6 +12,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.BiConsumer;
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
@@ -25,6 +26,7 @@ import io.flutter.plugin.platform.PlatformViewRegistry;
 import me.yohom.amap_map_fluttify.AmapMapFluttifyPlugin.Handler;
 import me.yohom.foundation_fluttify.core.FluttifyMessageCodec;
 
+import static me.yohom.amap_map_fluttify.sub_handler.SubHandler2.stayRecycleBitmapList;
 import static me.yohom.foundation_fluttify.FoundationFluttifyPluginKt.getEnableLog;
 import static me.yohom.foundation_fluttify.FoundationFluttifyPluginKt.getHEAP;
 
@@ -334,6 +336,18 @@ public class SubHandler5 {
                 Void __result__ = null;
                 try {
                     __this__.setIcon(var1);
+                    for (String key:stayRecycleBitmapList){
+                        getHEAP().remove(key);
+                    }
+                    stayRecycleBitmapList.clear();
+                    getHEAP().forEach(new BiConsumer<String, Object>() {
+                        @Override
+                        public void accept(String s, Object o) {
+                            if(o==var1){
+                                getHEAP().remove(s);
+                            }
+                        }
+                    });
                 } catch (Throwable throwable) {
                     throwable.printStackTrace();
                     if (getEnableLog()) {

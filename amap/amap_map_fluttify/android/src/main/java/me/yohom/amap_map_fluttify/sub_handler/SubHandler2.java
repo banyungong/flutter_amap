@@ -12,6 +12,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.BiConsumer;
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
@@ -30,6 +31,9 @@ import static me.yohom.foundation_fluttify.FoundationFluttifyPluginKt.getHEAP;
 
 @SuppressWarnings("ALL")
 public class SubHandler2 {
+
+    static List<String> stayRecycleBitmapList=new ArrayList<>();
+
     public static Map<String, Handler> getSubHandler(BinaryMessenger messenger) {
         return new HashMap<String, Handler>() {{
             // method
@@ -4040,6 +4044,15 @@ public class SubHandler2 {
                 com.amap.api.maps.model.BitmapDescriptor __result__ = null;
                 try {
                     __result__ = com.amap.api.maps.model.BitmapDescriptorFactory.fromBitmap(var0);
+                    getHEAP().forEach(new BiConsumer<String, Object>() {
+                        @Override
+                        public void accept(String s, Object o) {
+                            if (o == var0) {
+                                stayRecycleBitmapList.add(s);
+                            }
+                        }
+                    });
+
                 } catch (Throwable throwable) {
                     throwable.printStackTrace();
                     if (getEnableLog()) {
